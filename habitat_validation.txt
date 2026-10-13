@@ -1,0 +1,49 @@
+Habitat location validation
+===========================
+
+Total unique locations found: 85
+Total successfully mapped: 67
+Total with unknown coordinates: 18
+Duplicate locations merged: 8 level-range variants (the eight raw-label reductions are Sunreach Skies and seven additional The World Tree variants)
+Ambiguous locations: 0
+
+Extraction and normalization coverage
+-------------------------------------
+- Inspected the complete pal_locations.json (299 Pal records).
+- Included every distinct habitat-region name after removing [Lv. ...] ranges.
+- Parsed alpha-location and dungeon references, removed Pal/alpha names and levels, and split comma-combined dungeon names into separate entries.
+- The formal map name "The Oculus Gate, Tower in Sight" is intentionally not split: it is one PalDB regionData label.
+- Normalized "Eternal Summer Isle" to "Isle of Eternal Summer" and the Terraria descriptive string to "Sealed Realm of Terraria".
+- Internal yamijima_* alpha map identifiers are retained verbatim as explicit unresolved entries rather than guessed translations.
+- Every extracted normalized location has one output entry; no existing application file was changed.
+
+Ambiguous locations
+-------------------
+None. No conflicting credible coordinates were silently selected.
+
+Unresolved locations
+--------------------
+- Astral Mountains Cavern
+- Cavern of the Dunes
+- Cherry Blossom Cave
+- Feybreak Cavern
+- Hillside Cavern
+- Isolated Island Cavern
+- Mountain Stream Grotto
+- Palpagos Islands
+- Ravine Grotto
+- Rotmist Root
+- Shinespore Root
+- Sunreach Skies
+- The World Tree
+- Volcanic Cavern
+- yamijima_IceLand_pink_C_BOSS
+- yamijima_forest_purple_B_BOSS
+- yamijima_plateau_pink_G_BOSS
+- yamijima_rock_BOSS_B
+
+Sources and coordinate convention
+---------------------------------
+- https://paldb.cc/js/map_data_en.js was downloaded and verified. Its regionData entries provide the in-game X/Y (ipos) values used for the 66 directly labelled regions.
+- Sealed Realm of Terraria uses the explicit (-422, -795) alpha coordinate recorded in pal_locations.json; it is marked medium confidence because it is an alpha representative point rather than a regionData label.
+- PalDB's dungeon-marker records use a different world-position format and do not provide a stated conversion to regionData ipos. Those names remain unknown to avoid fabricating or mixing coordinate systems.

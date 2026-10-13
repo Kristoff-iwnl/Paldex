@@ -1,0 +1,6144 @@
+{
+ "game_version": "1.0",
+ "updated": "2026-07-14",
+ "pals": {
+  "Aegidron": {
+   "regions": [],
+   "day_night": "both",
+   "alpha_locations": [
+    "Guardian of Luminous Trails Aegidron (Lv. 79) - The World Tree (-59,756)"
+   ],
+   "egg_types": [
+    "Huge Dragon Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn - catch its boss/alpha (see alpha_locations)",
+    "obtainable via breeding"
+   ],
+   "notes": null
+  },
+  "Amione": {
+   "regions": [
+    "Golden Hills",
+    "Enchanted Firmament",
+    "Ancient Ritual Site",
+    "Waterlily Gorge",
+    "Crystalline Archipelago"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Damp Egg)",
+    "attacks bases during raids (catchable) (Lv. 10)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Anubis": {
+   "regions": [
+    "Sandstone Gate Islet",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Guardian of the Dark Sun Anubis (Lv. 55) - Palpagos Islands (-134,-94)",
+    "Guardian of the Dark Sun Anubis (Lv. 55) - as dungeon end-boss"
+   ],
+   "egg_types": [
+    "Huge Rocky Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Arsox": {
+   "regions": [
+    "Foot of the Volcano",
+    "Gobfin's Turf",
+    "Sea Breeze Archipelago",
+    "Marsh Island",
+    "Fortress Ruins",
+    "Foot of the Astral Mountains"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Blazing Brute Arsox (Lv. 15) - Palpagos Islands (-116,-491)",
+    "Blazing Brute Arsox (Lv. 17-19) - Ravine Grotto"
+   ],
+   "egg_types": [
+    "Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon: Ravine Grotto (Lv. 14-17)",
+    "dungeon loot egg (Scorching Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-25)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 15-18)"
+   ],
+   "notes": null
+  },
+  "Astegon": {
+   "regions": [
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Draconic Monarch of Steel Astegon (Lv. 55) - Palpagos Islands (-689,-110)"
+   ],
+   "egg_types": [
+    "Huge Dragon Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Astralym": {
+   "regions": [],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [],
+   "other_sources": [
+    "story final boss (fought alongside Zenara in the Sealed Sanctum, World Tree questline)",
+    "not obtainable in 1.0 - defeating it only adds a Paldex entry (cannot be caught, bred, or hatched)"
+   ],
+   "notes": null
+  },
+  "Azurmane": {
+   "regions": [
+    "Frozen Coral Hill",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Blue Lightning Steed Azurmane (Lv. 57) - as dungeon end-boss",
+    "Blue Lightning Steed Azurmane (Lv. 66) - Palpagos Islands (-1131,-1668)"
+   ],
+   "egg_types": [
+    "Large Electric Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Electric Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": null
+  },
+  "Azurobe": {
+   "regions": [
+    "Verdant Brook",
+    "Scars of War",
+    "Isle of Decayed Treasures",
+    "Sunlit Isle",
+    "Marsh Island",
+    "Flying Fish Coast",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Lady of the Lake Azurobe (Lv. 40) - Palpagos Islands (-176,-266)"
+   ],
+   "egg_types": [
+    "Large Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Damp Egg)",
+    "fishing (Lv. 11-18)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Azurobe Cryst": {
+   "regions": [
+    "Frozen Coral Hill",
+    "Feybreak Shipwreck",
+    "Isle of the Glacial Core",
+    "The Oculus Gate, Tower in Sight",
+    "Frostbound Mountains",
+    "Sunlit Isle",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Frozen Egg"
+   ],
+   "other_sources": [
+    "fishing (Lv. 36-48)"
+   ],
+   "notes": null
+  },
+  "Bakemi": {
+   "regions": [
+    "Azure Woodland",
+    "Enchanted Firmament",
+    "Waterlily Gorge",
+    "Sunreach Skies [Lv. 65-69]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 65-70)"
+   ],
+   "notes": null
+  },
+  "Bastigor": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 75-77]",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Frozen Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Beakon": {
+   "regions": [
+    "Desiccated Dunes",
+    "Frostbound Mountains",
+    "Scars of War",
+    "Isle of the Glacial Core",
+    "No. 3 Wildlife Sanctuary",
+    "Oasis Isle",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Wings of Thunderbolt Beakon (Lv. 37) - Palpagos Islands (95,23)",
+    "Wings of Thunderbolt Beakon (Lv. 37-40) - Cavern of the Dunes"
+   ],
+   "egg_types": [
+    "Large Electric Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Electric Egg)",
+    "attacks bases during raids (catchable) (Lv. 37)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Beakon Cryst": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 75-77]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Frozen Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Beegarde": {
+   "regions": [
+    "Gobfin's Turf",
+    "Verdant Brook"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Mountain Stream Grotto (Lv. 20-23)",
+    "dungeon loot egg (Verdant Egg)",
+    "attacks bases during raids (catchable) (Lv. 23)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 19-38)"
+   ],
+   "notes": null
+  },
+  "Bellanoir": {
+   "regions": [],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Dark Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn",
+    "raid-boss reward: Eclipsed Siren Bellanoir drops its Huge Dark Egg (90%)",
+    "breeding combo: Bellanoir + Bellanoir Libero"
+   ],
+   "notes": null
+  },
+  "Bellanoir Libero": {
+   "regions": [],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Dark Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn",
+    "raid-boss reward: Twilight Siren Bellanoir Libero drops its Huge Dark Egg (90%)",
+    "raid-boss reward: Twilight Siren (Ultra) Bellanoir Libero drops its Huge Dark Egg (90%)",
+    "breeding: same-species pair only (breeds true, no cross-combo produces it)"
+   ],
+   "notes": null
+  },
+  "Blazamut": {
+   "regions": [
+    "Flamepulse Islet",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Cursed Tyrant Blazamut (Lv. 52) - Palpagos Islands (-737,-332)"
+   ],
+   "egg_types": [
+    "Huge Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Scorching Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Blazamut Ryu": {
+   "regions": [],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Dragon Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn",
+    "raid-boss reward: Incarnation of the Eternal Flame Blazamut Ryu drops its Huge Dragon Egg (90%)",
+    "raid-boss reward: Incarnation of the Eternal Flame (Ultra) Blazamut Ryu drops its Huge Dragon Egg (90%)",
+    "breeding: same-species pair only (breeds true, no cross-combo produces it)"
+   ],
+   "notes": null
+  },
+  "Blazehowl": {
+   "regions": [
+    "Foot of the Volcano",
+    "Emberstone Plateau",
+    "Mount Obsidian",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Crimson Goliath Blazehowl (Lv. 30) - Palpagos Islands (-256,-131)",
+    "Crimson Goliath Blazehowl (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Scorching Egg)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Blazehowl Noct": {
+   "regions": [
+    "Frozen Coral Hill",
+    "Dry Sandy Beach",
+    "Foot of the Volcano",
+    "Mount Obsidian",
+    "Ruined Fortress City",
+    "Phantom Isle",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Inferno Goliath Blazehowl Noct (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Huge Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon: Volcanic Cavern (Lv. 34-36)",
+    "No. 2 Wildlife Sanctuary (Lv. 40-44)",
+    "dungeon loot egg (Huge Scorching Egg)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": null
+  },
+  "Blue Slime": {
+   "regions": [
+    "Sealed Realm of Terraria - Terraria dungeon island SE of Fisherman's Point, near Isle of Eternal Summer"
+   ],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Braloha": {
+   "regions": [
+    "Sea Breeze Archipelago",
+    "Isle of Silence",
+    "Isle of Murmurs",
+    "Desiccated Dunes",
+    "No. 3 Wildlife Sanctuary",
+    "Oasis Isle",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Ancient Bloombringer Braloha (Lv. 47-49) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Huge Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cherry Blossom Cave (Lv. 40-45)",
+    "dungeon loot egg (Huge Verdant Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Bristla": {
+   "regions": [
+    "Ancient Ritual Site",
+    "Crescent Moon Shore",
+    "Autumn Rocks",
+    "Gobfin's Turf"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Thorny Rose Bristla (Lv. 27-29) - Mountain Stream Grotto"
+   ],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Mountain Stream Grotto (Lv. 22-25)",
+    "dungeon loot egg (Verdant Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-25)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 9-21)"
+   ],
+   "notes": null
+  },
+  "Broncherry": {
+   "regions": [
+    "Ancient Ritual Site",
+    "Eastern Wild Island",
+    "Bamboo Groves",
+    "Crescent Moon Shore",
+    "Autumn Rocks",
+    "Gobfin's Turf",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Winds of Spring Broncherry (Lv. 23) - Palpagos Islands (-222,-669)"
+   ],
+   "egg_types": [
+    "Huge Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Verdant Egg)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Broncherry Aqua": {
+   "regions": [
+    "Verdant Brook",
+    "Scars of War",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Waves of Summer Broncherry Aqua (Lv. 30) - as dungeon end-boss"
+   ],
+   "egg_types": [
+    "Huge Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Verdant Egg)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Bulldosu": {
+   "regions": [
+    "Dancing Sakura Shrine",
+    "Sakurajima - Northern Rock Field"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Rocky Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)"
+   ],
+   "notes": null
+  },
+  "Bushi": {
+   "regions": [
+    "Desiccated Dunes",
+    "Foot of the Astral Mountains",
+    "Dancing Sakura Shrine",
+    "Dry Sandy Beach",
+    "Foot of the Volcano",
+    "Sakurajima - Northern Rock Field"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Vagrant Warrior Bushi (Lv. 25) - Palpagos Islands (-203,-346)",
+    "Vagrant Warrior Bushi (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "No. 3 Wildlife Sanctuary (Lv. 50-55)",
+    "dungeon loot egg (Large Scorching Egg)",
+    "attacks bases during raids (catchable) (Lv. 23)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Bushi Noct": {
+   "regions": [
+    "Deserted Ash Plateau",
+    "Scorched Ashland",
+    "Scorched Hill",
+    "Frozen Coral Hill",
+    "The Oculus Gate, Tower in Sight",
+    "Loess Plains"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Samurai of Darkness Bushi Noct (Lv. 51-52) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cherry Blossom Cave (Lv. 46-50)",
+    "dungeon loot egg (Large Scorching Egg)",
+    "attacks bases during raids (catchable) (Lv. 23)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)"
+   ],
+   "notes": null
+  },
+  "Caprity": {
+   "regions": [
+    "Crescent Moon Shore",
+    "Isle of Silence",
+    "Isle of Murmurs",
+    "Flying Fish Coast",
+    "Fortress Ruins",
+    "Windswept Island"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Walking Farm Caprity (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Verdant Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 25-30)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 8-53)"
+   ],
+   "notes": null
+  },
+  "Caprity Noct": {
+   "regions": [
+    "Loess Plains",
+    "Crystalized Ancient Tree",
+    "Emberstone Plateau",
+    "Hidden Passage to the Oculus Gate"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Tainted Farm Caprity Noct (Lv. 23) - Palpagos Islands (-147,-659)",
+    "Tainted Farm Caprity Noct (Lv. 55) - as dungeon end-boss",
+    "Tainted Farm Caprity Noct (Lv. 56-58) - Feybreak Cavern",
+    "Tainted Farm Caprity Noct (Lv. 55) - yamijima_forest_purple_B_BOSS"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Feybreak Cavern (Lv. 50-55)",
+    "dungeon loot egg (Dark Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-40)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 53)"
+   ],
+   "notes": null
+  },
+  "Carnibora": {
+   "regions": [
+    "No. 3 Wildlife Sanctuary"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Verdant Egg"
+   ],
+   "other_sources": [
+    "No. 3 Wildlife Sanctuary (Lv. 45-48)",
+    "attacks bases during raids (catchable) (Lv. 13)"
+   ],
+   "notes": null
+  },
+  "Cattiva": {
+   "regions": [
+    "Sea Breeze Archipelago",
+    "Isle of Silence",
+    "Isle of Murmurs",
+    "Flying Fish Coast",
+    "Fortress Ruins",
+    "Windswept Island"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "The Cat's Pajamas Cattiva (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Common Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 10-20)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Cave Bat": {
+   "regions": [
+    "Sealed Realm of Terraria - Terraria dungeon island SE of Fisherman's Point, near Isle of Eternal Summer"
+   ],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Cawgnito": {
+   "regions": [
+    "Desiccated Dunes",
+    "Deep Bamboo Thicket",
+    "Bamboo Groves",
+    "Stone Pillar Cave",
+    "Scorched Ashland",
+    "Withered Seaside"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Shadow-Cloaked Schemer Cawgnito (Lv. 17-19) - Ravine Grotto",
+    "Shadow-Cloaked Schemer Cawgnito (Lv. 37-40) - Cavern of the Dunes"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Ravine Grotto (Lv. 14-17)",
+    "dungeon: Cavern of the Dunes (Lv. 30-34)",
+    "dungeon: Cavern of the Dunes (Lv. 33-36)",
+    "dungeon loot egg (Dark Egg)",
+    "attacks bases during raids (catchable) (Lv. 42)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)",
+    "enemy camps (Lv. 35)"
+   ],
+   "notes": null
+  },
+  "Celaray": {
+   "regions": [
+    "Flying Fish Coast",
+    "Isle of Silence",
+    "Fortress Ruins",
+    "Sea Breeze Archipelago",
+    "Twilight Dunes",
+    "Marsh Island"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Soaring Skyfish Celaray (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Damp Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 15-20)",
+    "fishing (Lv. 11-18)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Celaray Lux": {
+   "regions": [
+    "Oasis Isle",
+    "Frostbound Mountains",
+    "Foot of the Astral Mountains",
+    "Desiccated Dunes",
+    "Isle of the Glacial Core",
+    "Isle of Eternal Summer"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Damp Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 50-55)",
+    "fishing (Lv. 16-26)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Celesdir": {
+   "regions": [
+    "Deserted Ash Plateau",
+    "Scorched Ashland",
+    "Scorched Hill",
+    "Frozen Coral Hill",
+    "The Oculus Gate, Tower in Sight",
+    "Loess Plains",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Beast of Salvation Celesdir (Lv. 60) - as dungeon end-boss",
+    "Beast of Salvation Celesdir (Lv. 79) - The World Tree (-60,778)",
+    "Beast of Salvation Celesdir (Lv. 65) - Palpagos Islands (-965,-1172)"
+   ],
+   "egg_types": [
+    "Large Common Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Common Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": null
+  },
+  "Celesdir Noct": {
+   "regions": [],
+   "day_night": "both",
+   "alpha_locations": [
+    "Beast of Chaos Celesdir Noct (Lv. 79) - The World Tree (-60,778)"
+   ],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn - catch its boss/alpha (see alpha_locations)",
+    "breeding combo: Celesdir + Kitsun Noct"
+   ],
+   "notes": null
+  },
+  "Chikipi": {
+   "regions": [
+    "Eastern Wild Island",
+    "Flying Fish Coast",
+    "Windswept Island",
+    "Fortress Ruins",
+    "Golden Hills",
+    "Scars of War"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Plump & Juicy Chikipi (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Common Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 15-25)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Chillet": {
+   "regions": [
+    "Foot of the Astral Mountains",
+    "No. 1 Wildlife Sanctuary",
+    "Twilight Dunes",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Dancer on the Steppe Chillet (Lv. 11) - Palpagos Islands (172,-418)",
+    "Dancer on the Steppe Chillet (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon: Astral Mountains Cavern (Lv. 39-41)",
+    "dungeon loot egg (Frozen Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 25-30)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 50)"
+   ],
+   "notes": null
+  },
+  "Chillet Ignis": {
+   "regions": [
+    "Dancing Sakura Shrine",
+    "Sakurajima - Northern Rock Field",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Cherry Blossom Dancer Chillet Ignis (Lv. 51-52) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cherry Blossom Cave (Lv. 40-45)",
+    "dungeon loot egg (Large Scorching Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-40)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)",
+    "incident/outbreak events (Lv. 50)"
+   ],
+   "notes": null
+  },
+  "Cinnamoth": {
+   "regions": [
+    "Ancient Ritual Site",
+    "Crescent Moon Shore",
+    "Autumn Rocks",
+    "Gobfin's Turf"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Butterfly Promenade Cinnamoth (Lv. 27-29) - Mountain Stream Grotto"
+   ],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Mountain Stream Grotto (Lv. 22-25)",
+    "dungeon loot egg (Verdant Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Clovee": {
+   "regions": [
+    "Windswept Island",
+    "Golden Hills",
+    "Fortress Ruins",
+    "Autumn Rocks"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Dubiously Lucky Clovee (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Verdant Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 5-8)"
+   ],
+   "notes": null
+  },
+  "Cremis": {
+   "regions": [
+    "Isle of Silence",
+    "Isle of Murmurs",
+    "Sea Breeze Archipelago",
+    "Marsh Island",
+    "Golden Hills"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Darling Furball Cremis (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Common Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Croajiro": {
+   "regions": [
+    "Sea Breeze Archipelago",
+    "Ancient Ritual Site",
+    "Fortress Ruins",
+    "Windswept Island",
+    "Sakurajima - Mushroom Wetlands",
+    "Golden Hills"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Harakiri Master Croajiro (Lv. 47-49) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cherry Blossom Cave (Lv. 40-45)",
+    "dungeon loot egg (Damp Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-65)",
+    "attacks bases during raids (catchable) (Lv. 10-23)",
+    "fishing (Lv. 11-18)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 50)"
+   ],
+   "notes": null
+  },
+  "Croajiro Noct": {
+   "regions": [
+    "Scorched Hill",
+    "Deserted Ash Plateau",
+    "Dancing Sakura Shrine",
+    "Hidden Passage to the Oculus Gate",
+    "Sakurajima - Mushroom Wetlands",
+    "Emberstone Plateau"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Damp Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 75-80)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "fishing (Lv. 36-48)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": null
+  },
+  "Cryolinx": {
+   "regions": [
+    "Astral Mountains"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Predator of Snowy Peaks Cryolinx (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Large Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Frozen Egg)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)",
+    "incident/outbreak events (Lv. 36-43)"
+   ],
+   "notes": null
+  },
+  "Cryolinx Terra": {
+   "regions": [
+    "Deserted Ash Plateau"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Predator of the Earth Cryolinx Terra (Lv. 58) - as dungeon end-boss",
+    "Predator of the Earth Cryolinx Terra (Lv. 56-58) - Feybreak Cavern",
+    "Predator of the Earth Cryolinx Terra (Lv. 62) - Palpagos Islands (-1285,-1302)"
+   ],
+   "egg_types": [
+    "Large Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Rocky Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)",
+    "incident/outbreak events (Lv. 57)"
+   ],
+   "notes": null
+  },
+  "Daedream": {
+   "regions": [
+    "Sea Breeze Archipelago",
+    "Flying Fish Coast",
+    "Windswept Island"
+   ],
+   "day_night": "night",
+   "alpha_locations": [
+    "Dream Eater Daedream (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 5-10)",
+    "dungeon: Ravine Grotto (Lv. 12-15)",
+    "dungeon: Hillside Cavern (Lv. 5-10)",
+    "dungeon loot egg (Dark Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Dandilord": {
+   "regions": [],
+   "day_night": null,
+   "alpha_locations": [
+    "Bewitching Lurker Dandilord (Lv. 78) - Rotmist Root"
+   ],
+   "egg_types": [
+    "Huge Verdant Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn - catch its boss/alpha (see alpha_locations)",
+    "breeding: same-species pair only (breeds true, no cross-combo produces it)"
+   ],
+   "notes": null
+  },
+  "Dazemu": {
+   "regions": [
+    "Desiccated Dunes",
+    "Sakurajima - Northern Rock Field",
+    "Isle of the Glacial Core",
+    "No. 3 Wildlife Sanctuary",
+    "Scars of War",
+    "Frostbound Mountains"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Brilliant Steps Dazemu (Lv. 47-49) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Large Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cherry Blossom Cave (Lv. 40-45)",
+    "dungeon loot egg (Large Rocky Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Dazzi": {
+   "regions": [
+    "Twilight Dunes",
+    "Desiccated Dunes",
+    "Frostbound Mountains",
+    "Deep Bamboo Thicket"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Born of the Storm Dazzi (Lv. 37-40) - Cavern of the Dunes"
+   ],
+   "egg_types": [
+    "Electric Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cavern of the Dunes (Lv. 33-36)",
+    "dungeon loot egg (Electric Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-55)",
+    "attacks bases during raids (catchable) (Lv. 23)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 34)"
+   ],
+   "notes": "wild spawn (Lv. 33-35) exists but its area is not listed on the source (???)"
+  },
+  "Dazzi Noct": {
+   "regions": [
+    "Stone Pillar Cave",
+    "Scorched Ashland",
+    "Waterlily Gorge",
+    "Sandstone Gate Islet",
+    "Withered Seaside",
+    "Scorched Hill"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Born of the Thunderclouds Dazzi Noct (Lv. 53) - as dungeon end-boss",
+    "Born of the Thunderclouds Dazzi Noct (Lv. 56-58) - Feybreak Cavern",
+    "Born of the Thunderclouds Dazzi Noct (Lv. 60) - Palpagos Islands (-1201,-855)"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Feybreak Cavern (Lv. 50-55)",
+    "dungeon loot egg (Dark Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 20-40)",
+    "attacks bases during raids (catchable) (Lv. 10-13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 54-57)"
+   ],
+   "notes": null
+  },
+  "Demon Eye": {
+   "regions": [
+    "Sealed Realm of Terraria - Terraria dungeon island SE of Fisherman's Point, near Isle of Eternal Summer"
+   ],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Depresso": {
+   "regions": [
+    "Bamboo Groves",
+    "Eastern Wild Island",
+    "Golden Hills",
+    "Foot of the Volcano",
+    "Sea Breeze Archipelago",
+    "Deep Bamboo Thicket"
+   ],
+   "day_night": "night",
+   "alpha_locations": [
+    "Several Sleepless Nights Later Depresso (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Dark Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 5-8)",
+    "enemy camps (Lv. 20)"
+   ],
+   "notes": null
+  },
+  "Digtoise": {
+   "regions": [
+    "Desiccated Dunes",
+    "Twilight Dunes",
+    "Isle of the Glacial Core",
+    "Scars of War",
+    "Frostbound Mountains",
+    "No. 3 Wildlife Sanctuary"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Drilling Machine Digtoise (Lv. 17-19) - Ravine Grotto",
+    "Drilling Machine Digtoise (Lv. 37-40) - Cavern of the Dunes"
+   ],
+   "egg_types": [
+    "Large Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Rocky Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 22-35)"
+   ],
+   "notes": null
+  },
+  "Dinossom": {
+   "regions": [
+    "Eastern Wild Island",
+    "Sea Breeze Archipelago",
+    "Marsh Island",
+    "Desiccated Dunes",
+    "Flying Fish Coast",
+    "Golden Hills"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Guardian of Blossoming Gardens Dinossom (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Large Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Verdant Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 39)"
+   ],
+   "notes": null
+  },
+  "Dinossom Lux": {
+   "regions": [
+    "Desiccated Dunes",
+    "Isle of the Glacial Core",
+    "Scars of War",
+    "No. 3 Wildlife Sanctuary",
+    "Frostbound Mountains",
+    "Oasis Isle"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Guardian of Lightning Dinossom Lux (Lv. 47) - Palpagos Islands (315,169)",
+    "Guardian of Lightning Dinossom Lux (Lv. 37-40) - Cavern of the Dunes"
+   ],
+   "egg_types": [
+    "Large Electric Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Electric Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 15-30)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)",
+    "incident/outbreak events (Lv. 39)"
+   ],
+   "notes": null
+  },
+  "Direhowl": {
+   "regions": [
+    "Deep Bamboo Thicket",
+    "Sea Breeze Archipelago",
+    "Golden Hills",
+    "Marsh Island",
+    "Twilight Dunes",
+    "Bamboo Groves"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Hunter of the Steppe Direhowl (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Common Egg)",
+    "attacks bases during raids (catchable) (Lv. 5-37)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 5-10)"
+   ],
+   "notes": null
+  },
+  "Dogen": {
+   "regions": [
+    "Dancing Sakura Shrine",
+    "Sakurajima - Northern Rock Field"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "State of Enlightenment Dogen (Lv. 51-52) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Large Common Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Common Egg)",
+    "attacks bases during raids (catchable) (Lv. 13-23)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)",
+    "incident/outbreak events (Lv. 50)"
+   ],
+   "notes": null
+  },
+  "Dualith": {
+   "regions": [
+    "Foot of the World Tree",
+    "Foot of the Astral Mountains",
+    "The World Tree [Lv. 73-75]",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Twinhearted Azure Construct Dualith (Lv. 75) - as dungeon end-boss",
+    "Twinhearted Azure Construct Dualith (Lv. 55) - The World Tree (15,776)"
+   ],
+   "egg_types": [
+    "Huge Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Rocky Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Dualith Noct": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 75-77]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Twinhearted Violet Construct Dualith Noct (Lv. 70) - Palpagos Islands (-1694,-948)"
+   ],
+   "egg_types": [
+    "Huge Rocky Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Dumud": {
+   "regions": [
+    "Dry Sandy Beach",
+    "Twilight Dunes",
+    "Bamboo Groves",
+    "Foot of the Volcano",
+    "Ruined Fortress City",
+    "Phantom Isle"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Perpetual Procrastinator Dumud (Lv. 14) - Palpagos Islands (-310,4)",
+    "Perpetual Procrastinator Dumud (Lv. 17-19) - Ravine Grotto",
+    "Perpetual Procrastinator Dumud (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon: Ravine Grotto (Lv. 14-17)",
+    "dungeon: Volcanic Cavern (Lv. 32-35)",
+    "dungeon loot egg (Rocky Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-50)",
+    "fishing (Lv. 16-26)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 17-19)"
+   ],
+   "notes": null
+  },
+  "Dumud Gild": {
+   "regions": [
+    "Sakurajima - Northern Rock Field",
+    "Desiccated Dunes",
+    "Isle of Eternal Summer",
+    "Dry Sandy Beach",
+    "Oasis Isle",
+    "Foot of the Volcano"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Rocky Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 60-65)",
+    "fishing (Lv. 36-48)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": "wild spawn (Lv. 33-35) exists but its area is not listed on the source (???)"
+  },
+  "Dupin": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 72-74]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "roams all areas (rare wandering spawn) (Lv. 55)"
+   ],
+   "notes": null
+  },
+  "Dynamoff": {
+   "regions": [
+    "Waterlily Gorge",
+    "Sunreach Skies [Lv. 63-64]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Buzzy Bundle Dynamoff (Lv. 67) - Palpagos Islands (-308,-1523)",
+    "Buzzy Bundle Dynamoff (Lv. 65-69) - Sunreach Skies"
+   ],
+   "egg_types": [
+    "Large Electric Egg"
+   ],
+   "other_sources": [
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 65-70)"
+   ],
+   "notes": null
+  },
+  "Eidrolon": {
+   "regions": [
+    "The World Tree [Lv. 80]",
+    "Sunreach Skies [Lv. 65-69]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Wings of Freedom Eidrolon (Lv. 69) - Palpagos Islands (-489,-1521)"
+   ],
+   "egg_types": [
+    "Large Dragon Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Eidrolon Ignis": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 75-77]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Dragon Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Eikthyrdeer": {
+   "regions": [
+    "Marsh Island",
+    "Golden Hills",
+    "Sea Breeze Archipelago",
+    "Fortress Ruins",
+    "Autumn Rocks",
+    "Bamboo Groves",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Protector of the Herd Eikthyrdeer (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Large Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Large Common Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Eikthyrdeer Terra": {
+   "regions": [
+    "Flying Fish Coast",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Rocky Egg"
+   ],
+   "other_sources": [
+    "No. 1 Wildlife Sanctuary (Lv. 20-23)"
+   ],
+   "notes": null
+  },
+  "Elgrove": {
+   "regions": [
+    "Bamboo Groves",
+    "Flying Fish Coast",
+    "Ancient Ritual Site",
+    "Foot of the Volcano",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Verdant Egg"
+   ],
+   "other_sources": [
+    "No. 1 Wildlife Sanctuary (Lv. 24-26)",
+    "dungeon loot egg (Large Verdant Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Elgrove Cryst": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 75-77]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Frozen Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Elizabee": {
+   "regions": [
+    "Gobfin's Turf",
+    "Verdant Brook"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Empress of the Hive Elizabee (Lv. 39) - Palpagos Islands (164,-84)"
+   ],
+   "egg_types": [
+    "Huge Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Verdant Egg)",
+    "attacks bases during raids (catchable) (Lv. 23)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 22)"
+   ],
+   "notes": null
+  },
+  "Elphidran": {
+   "regions": [
+    "Ancient Ritual Site",
+    "Crescent Moon Shore",
+    "Autumn Rocks",
+    "Gobfin's Turf",
+    "Flying Fish Coast",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Gentle Sky Dragon Elphidran (Lv. 30) - Palpagos Islands (44,-284)",
+    "Gentle Sky Dragon Elphidran (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Large Dragon Egg"
+   ],
+   "other_sources": [
+    "No. 1 Wildlife Sanctuary (Lv. 20-23)",
+    "dungeon loot egg (Large Dragon Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Elphidran Aqua": {
+   "regions": [
+    "Frostbound Mountains",
+    "Sakurajima - Southern Sandbar",
+    "Dancing Sakura Shrine",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Dragon Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Dragon Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 40)"
+   ],
+   "notes": null
+  },
+  "Enchanted Sword": {
+   "regions": [
+    "Sealed Realm of Terraria - Terraria dungeon island SE of Fisherman's Point, near Isle of Eternal Summer"
+   ],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Eye of Cthulhu": {
+   "regions": [
+    "Sealed Realm of Terraria - Terraria dungeon island SE of Fisherman's Point, near Isle of Eternal Summer"
+   ],
+   "day_night": null,
+   "alpha_locations": [
+    "Eye of Cthulhu (Lv. 45) - Sealed Realm of Terraria, Eternal Summer Isle (-422, -795)"
+   ],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [],
+   "notes": "wild spawn is the alpha only (Terraria dungeon boss)"
+  },
+  "Faleris": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 76-78]",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Scorching Egg"
+   ],
+   "other_sources": [
+    "incident/outbreak events (Lv. 54)"
+   ],
+   "notes": null
+  },
+  "Faleris Aqua": {
+   "regions": [
+    "Frozen Coral Hill",
+    "Foot of the World Tree",
+    "Enchanted Firmament",
+    "Crystalline Archipelago",
+    "The World Tree [Lv. 76-78]",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Sentinel of the Tides Faleris Aqua (Lv. 56) - as dungeon end-boss",
+    "Sentinel of the Tides Faleris Aqua (Lv. 56-58) - Feybreak Cavern",
+    "Sentinel of the Tides Faleris Aqua (Lv. 66) - Palpagos Islands (-1306,-1620)"
+   ],
+   "egg_types": [
+    "Huge Damp Egg"
+   ],
+   "other_sources": [
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "incident/outbreak events (Lv. 54)"
+   ],
+   "notes": null
+  },
+  "Felbat": {
+   "regions": [
+    "The Oculus Gate, Tower in Sight",
+    "Frozen Coral Hill",
+    "Hidden Passage to the Oculus Gate"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Gloom-Shrouded Bloodsucker Felbat (Lv. 31) - as dungeon end-boss",
+    "Gloom-Shrouded Bloodsucker Felbat (Lv. 27-29) - Mountain Stream Grotto"
+   ],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Mountain Stream Grotto (Lv. 20-23)",
+    "dungeon loot egg (Large Dark Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)",
+    "incident/outbreak events (Lv. 49)"
+   ],
+   "notes": null
+  },
+  "Fenglope": {
+   "regions": [
+    "No. 3 Wildlife Sanctuary",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Drifting Cloud Fenglope (Lv. 25) - Palpagos Islands (-258,-458)",
+    "Drifting Cloud Fenglope (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "No. 3 Wildlife Sanctuary (Lv. 45-50)"
+   ],
+   "notes": null
+  },
+  "Fenglope Lux": {
+   "regions": [
+    "Stone Pillar Cave",
+    "Scorched Ashland",
+    "Withered Seaside",
+    "Scorched Hill",
+    "Emberstone Plateau",
+    "Sandstone Gate Islet",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Drifting Thundercloud Fenglope Lux (Lv. 57) - as dungeon end-boss",
+    "Drifting Thundercloud Fenglope Lux (Lv. 60) - Palpagos Islands (-858,-1146)"
+   ],
+   "egg_types": [
+    "Electric Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Electric Egg)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": null
+  },
+  "Finsider": {
+   "regions": [
+    "Desiccated Dunes",
+    "Scars of War",
+    "Frostbound Mountains",
+    "Isle of the Glacial Core",
+    "Oasis Isle",
+    "Flamepulse Islet"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Eyes from the Abyss Finsider (Lv. 37-40) - Cavern of the Dunes"
+   ],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cavern of the Dunes (Lv. 33-36)",
+    "dungeon: Cavern of the Dunes (Lv. 30-34)",
+    "fishing (Lv. 16-26)"
+   ],
+   "notes": null
+  },
+  "Finsider Ignis": {
+   "regions": [
+    "Deserted Ash Plateau",
+    "Scorched Hill",
+    "Withered Seaside",
+    "Stone Pillar Cave",
+    "Loess Plains",
+    "Scorched Ashland"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "fishing (Lv. 36-48)"
+   ],
+   "notes": null
+  },
+  "Flambelle": {
+   "regions": [
+    "Foot of the Volcano",
+    "Eastern Wild Island",
+    "Sea Breeze Archipelago",
+    "Mount Obsidian",
+    "Phantom Isle",
+    "Isle of Silence"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Molten Daughter Flambelle (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon: Volcanic Cavern (Lv. 32-35)",
+    "dungeon loot egg (Scorching Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-50)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 30)"
+   ],
+   "notes": null
+  },
+  "Flaracle": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 75-77]",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Self-Serving Seer Flaracle (Lv. 68) - Palpagos Islands (-244,-1520)"
+   ],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "caged pal in enemy camps (free to recruit) (Lv. 65-69)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 65-70)"
+   ],
+   "notes": null
+  },
+  "Flopie": {
+   "regions": [
+    "Crescent Moon Shore",
+    "Twilight Dunes"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Star of the Flower Beds Flopie (Lv. 27-29) - Mountain Stream Grotto"
+   ],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Mountain Stream Grotto (Lv. 22-25)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-35)",
+    "incident/outbreak events (Lv. 10-15)"
+   ],
+   "notes": null
+  },
+  "Foxcicle": {
+   "regions": [
+    "No. 1 Wildlife Sanctuary",
+    "Abandoned Ruins",
+    "Foot of the Astral Mountains",
+    "Frostbound Mountains",
+    "Astral Mountains",
+    "Sakurajima - Northern Rock Field"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Frostbound Fox Foxcicle (Lv. 15) - Palpagos Islands (242,-332)"
+   ],
+   "egg_types": [
+    "Large Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Frozen Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Foxparks": {
+   "regions": [
+    "Fortress Ruins",
+    "Windswept Island",
+    "Golden Hills",
+    "Autumn Rocks"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Revealer of Paths Foxparks (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Scorching Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 53)"
+   ],
+   "notes": null
+  },
+  "Foxparks Cryst": {
+   "regions": [
+    "Abandoned Ruins",
+    "Foot of the Astral Mountains"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Icy Blossom Voyager Foxparks Cryst (Lv. 15) - Palpagos Islands (-411,-55)",
+    "Icy Blossom Voyager Foxparks Cryst (Lv. 52) - as dungeon end-boss",
+    "Icy Blossom Voyager Foxparks Cryst (Lv. 56-58) - Feybreak Cavern"
+   ],
+   "egg_types": [
+    "Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon: Feybreak Cavern (Lv. 50-55)",
+    "dungeon loot egg (Frozen Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-40)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 53)"
+   ],
+   "notes": null
+  },
+  "Frostallion": {
+   "regions": [],
+   "day_night": "both",
+   "alpha_locations": [
+    "Legendary Steed of Ice Frostallion (Lv. 60) - Palpagos Islands (-357,509)"
+   ],
+   "egg_types": [
+    "Huge Frozen Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn - catch its boss/alpha (see alpha_locations)",
+    "breeding: same-species pair only (breeds true, no cross-combo produces it)"
+   ],
+   "notes": null
+  },
+  "Frostallion Noct": {
+   "regions": [],
+   "day_night": "both",
+   "alpha_locations": [
+    "Legendary Steed of Darkness Frostallion Noct (Lv. 65) - Palpagos Islands (689,648)"
+   ],
+   "egg_types": [
+    "Huge Dark Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn - catch its boss/alpha (see alpha_locations)",
+    "breeding combo: Frostallion + Helzephyr"
+   ],
+   "notes": null
+  },
+  "Frostplume": {
+   "regions": [
+    "Farcry Marsh",
+    "Crystalline Archipelago",
+    "Enchanted Firmament",
+    "Waterlily Gorge"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Snowlaced Feather Mantle Frostplume (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon: Astral Mountains Cavern (Lv. 39-41)",
+    "dungeon loot egg (Frozen Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 55-60)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Fuack": {
+   "regions": [
+    "Sea Breeze Archipelago",
+    "Ancient Ritual Site",
+    "Golden Hills",
+    "Windswept Island",
+    "Marsh Island",
+    "Bamboo Groves"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Rowdy Wave Ripper Fuack (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Damp Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 10-20)",
+    "fishing (Lv. 11-18)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Fuack Ignis": {
+   "regions": [
+    "Dry Sandy Beach",
+    "Ruined Fortress City",
+    "Phantom Isle",
+    "Mount Obsidian"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Damp Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 45-50)",
+    "fishing (Lv. 16-26)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Fuddler": {
+   "regions": [
+    "Desiccated Dunes",
+    "Twilight Dunes",
+    "Scars of War",
+    "Frostbound Mountains",
+    "Isle of the Glacial Core",
+    "Deep Bamboo Thicket"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Underground Explorer Fuddler (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern",
+    "Underground Explorer Fuddler (Lv. 37-40) - Cavern of the Dunes"
+   ],
+   "egg_types": [
+    "Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 5-10)",
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon: Ravine Grotto (Lv. 12-15)",
+    "dungeon: Cavern of the Dunes (Lv. 30-34)",
+    "dungeon: Cavern of the Dunes (Lv. 33-36)",
+    "dungeon: Hillside Cavern (Lv. 5-10)",
+    "dungeon loot egg (Rocky Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-30)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Galeclaw": {
+   "regions": [
+    "Ancient Ritual Site",
+    "Deep Bamboo Thicket",
+    "Crescent Moon Shore",
+    "Autumn Rocks",
+    "Twilight Dunes",
+    "Gobfin's Turf"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Proud Courier Galeclaw (Lv. 17-19) - Ravine Grotto",
+    "Proud Courier Galeclaw (Lv. 27-29) - Mountain Stream Grotto"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Ravine Grotto (Lv. 14-17)",
+    "dungeon: Mountain Stream Grotto (Lv. 22-25)",
+    "dungeon loot egg (Common Egg)",
+    "attacks bases during raids (catchable) (Lv. 13-23)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 18-28)"
+   ],
+   "notes": null
+  },
+  "Ghangler": {
+   "regions": [
+    "Scorched Ashland",
+    "Dancing Sakura Shrine",
+    "Phantom Isle",
+    "Sakurajima - Mushroom Wetlands",
+    "Deserted Ash Plateau",
+    "Sakurajima - Southern Sandbar"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Temptation in the Deep Ghangler (Lv. 47-49) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cherry Blossom Cave (Lv. 40-45)",
+    "dungeon: Volcanic Cavern (Lv. 32-36)",
+    "dungeon loot egg (Large Dark Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 75-80)",
+    "attacks bases during raids (catchable) (Lv. 10)",
+    "fishing (Lv. 36-48)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": null
+  },
+  "Ghangler Ignis": {
+   "regions": [
+    "Deserted Ash Plateau",
+    "Scorched Hill",
+    "Withered Seaside",
+    "Stone Pillar Cave",
+    "Loess Plains",
+    "Scorched Ashland"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "fishing (Lv. 36-48)"
+   ],
+   "notes": null
+  },
+  "Gildane": {
+   "regions": [
+    "Loess Plains",
+    "Hidden Passage to the Oculus Gate",
+    "The Oculus Gate, Tower in Sight",
+    "Deserted Ash Plateau",
+    "Crystalized Ancient Tree",
+    "Scorched Hill"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Guardian Beast of Twilight Gildane (Lv. 58) - as dungeon end-boss",
+    "Guardian Beast of Twilight Gildane (Lv. 56-58) - Feybreak Cavern",
+    "Guardian Beast of Twilight Gildane (Lv. 63) - Palpagos Islands (-940,-1412)"
+   ],
+   "egg_types": [
+    "Huge Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Rocky Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)",
+    "incident/outbreak events (Lv. 54-57)"
+   ],
+   "notes": null
+  },
+  "Gildra": {
+   "regions": [
+    "Desiccated Dunes",
+    "Isle of the Glacial Core",
+    "No. 3 Wildlife Sanctuary",
+    "Scars of War",
+    "Frostbound Mountains",
+    "Oasis Isle",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Dark Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Gloopie": {
+   "regions": [
+    "Scorched Ashland",
+    "Deserted Ash Plateau",
+    "Withered Seaside",
+    "Phantom Isle",
+    "Isle of Eternal Summer",
+    "Sakurajima - Mushroom Wetlands"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Trickster of the Sea Gloopie (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Large Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon: Volcanic Cavern (Lv. 32-35)",
+    "dungeon: Volcanic Cavern (Lv. 32-36)",
+    "dungeon loot egg (Large Damp Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 75-80)",
+    "attacks bases during raids (catchable) (Lv. 10)",
+    "fishing (Lv. 16-26)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)"
+   ],
+   "notes": null
+  },
+  "Gloopie Primo": {
+   "regions": [
+    "Foot of the World Tree",
+    "Waterlily Gorge",
+    "Enchanted Firmament",
+    "Crystalline Archipelago",
+    "Azure Woodland",
+    "Farcry Marsh"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Damp Egg)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "fishing (Lv. 36-48)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": null
+  },
+  "Gobfin": {
+   "regions": [
+    "Gobfin's Turf",
+    "Deep Bamboo Thicket",
+    "Foot of the Volcano"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Sea Thug Gobfin (Lv. 27-29) - Mountain Stream Grotto"
+   ],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon: Mountain Stream Grotto (Lv. 22-25)",
+    "dungeon loot egg (Damp Egg)",
+    "attacks bases during raids (catchable) (Lv. 23-36)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 10-30)"
+   ],
+   "notes": null
+  },
+  "Gobfin Ignis": {
+   "regions": [
+    "Phantom Isle",
+    "Mount Obsidian",
+    "Ruined Fortress City"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Volcano Thug Gobfin Ignis (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon: Volcanic Cavern (Lv. 32-35)",
+    "dungeon loot egg (Scorching Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 20-50)",
+    "attacks bases during raids (catchable) (Lv. 16)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 30)"
+   ],
+   "notes": null
+  },
+  "Gorirat": {
+   "regions": [
+    "Frostbound Mountains",
+    "Verdant Brook",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Jungle Punk Gorirat (Lv. 27-29) - Mountain Stream Grotto"
+   ],
+   "egg_types": [
+    "Large Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Mountain Stream Grotto (Lv. 22-25)",
+    "dungeon loot egg (Large Common Egg)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 18)"
+   ],
+   "notes": null
+  },
+  "Gorirat Terra": {
+   "regions": [
+    "Desiccated Dunes",
+    "Frostbound Mountains",
+    "Scars of War",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Up for a Brawl Gorirat Terra (Lv. 51-52) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Large Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cherry Blossom Cave (Lv. 40-45)",
+    "dungeon loot egg (Large Rocky Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-40)",
+    "attacks bases during raids (catchable) (Lv. 29)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Green Slime": {
+   "regions": [
+    "Sealed Realm of Terraria - Terraria dungeon island SE of Fisherman's Point, near Isle of Eternal Summer"
+   ],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Grintale": {
+   "regions": [
+    "Ancient Ritual Site",
+    "Crescent Moon Shore",
+    "Sakurajima - Mushroom Wetlands",
+    "Gobfin's Turf",
+    "Frostbound Mountains",
+    "Verdant Brook"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Marshmallow Body Grintale (Lv. 17) - Palpagos Islands (356,-246)",
+    "Marshmallow Body Grintale (Lv. 27-29) - Mountain Stream Grotto"
+   ],
+   "egg_types": [
+    "Large Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Mountain Stream Grotto (Lv. 20-23)",
+    "dungeon loot egg (Large Common Egg)",
+    "attacks bases during raids (catchable) (Lv. 13-23)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)",
+    "enemy camps (Lv. 35)"
+   ],
+   "notes": null
+  },
+  "Grizzbolt": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 70-72]",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Claws of Lightning Grizzbolt (Lv. 30) - Palpagos Islands (56,-697)"
+   ],
+   "egg_types": [
+    "Huge Electric Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Gumoss": {
+   "regions": [
+    "Eastern Wild Island",
+    "Fortress Ruins",
+    "Marsh Island",
+    "Windswept Island",
+    "Flying Fish Coast"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Suddenly Transformed Gumoss (Lv. 11) - Palpagos Islands (-113,-628)",
+    "Suddenly Transformed Gumoss (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Verdant Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Hangyu": {
+   "regions": [
+    "Bamboo Groves",
+    "Deep Bamboo Thicket",
+    "Twilight Dunes",
+    "Foot of the Volcano",
+    "Golden Hills",
+    "Ancient Ritual Site"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Bringer of Luck Hangyu (Lv. 17-19) - Ravine Grotto",
+    "Bringer of Luck Hangyu (Lv. 37-40) - Cavern of the Dunes"
+   ],
+   "egg_types": [
+    "Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon: Ravine Grotto (Lv. 14-17)",
+    "dungeon: Cavern of the Dunes (Lv. 33-36)",
+    "dungeon loot egg (Rocky Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 20-30)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Hangyu Cryst": {
+   "regions": [
+    "Foot of the Astral Mountains",
+    "No. 1 Wildlife Sanctuary",
+    "Abandoned Ruins",
+    "Twilight Dunes",
+    "Astral Mountains",
+    "Sakurajima - Northern Rock Field"
+   ],
+   "day_night": "night",
+   "alpha_locations": [],
+   "egg_types": [
+    "Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Frozen Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 25-60)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)",
+    "incident/outbreak events (Lv. 26)",
+    "enemy camps (Lv. 45)"
+   ],
+   "notes": null
+  },
+  "Hartalis": {
+   "regions": [],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Common Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn",
+    "raid-boss reward: King of Salvation Hartalis drops its Huge Common Egg (90%)",
+    "raid-boss reward: King of Salvation (Ultra) Hartalis drops its Huge Common Egg (90%)",
+    "breeding: same-species pair only (breeds true, no cross-combo produces it)"
+   ],
+   "notes": null
+  },
+  "Helzephyr": {
+   "regions": [
+    "Scorched Hill",
+    "Hidden Passage to the Oculus Gate",
+    "Deserted Ash Plateau",
+    "Ancient Ritual Site",
+    "Gobfin's Turf",
+    "The Oculus Gate, Tower in Sight",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Dark Egg)",
+    "attacks bases during raids (catchable) (Lv. 23)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 26)"
+   ],
+   "notes": null
+  },
+  "Helzephyr Lux": {
+   "regions": [
+    "Sakurajima - Northern Rock Field",
+    "Dancing Sakura Shrine",
+    "Sakurajima - Mushroom Wetlands",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Wings of Netherstorm Helzephyr Lux (Lv. 51-52) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Huge Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Dark Egg)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)"
+   ],
+   "notes": null
+  },
+  "Herbil": {
+   "regions": [
+    "Deep Bamboo Thicket",
+    "Twilight Dunes",
+    "Fortress Ruins",
+    "Windswept Island",
+    "Isle of Eternal Summer",
+    "Oasis Isle"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Percussive Maintenance Herbil (Lv. 27-29) - Mountain Stream Grotto"
+   ],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Mountain Stream Grotto (Lv. 22-25)",
+    "dungeon loot egg (Verdant Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": "wild spawn (Lv. 33-35) exists but its area is not listed on the source (???)"
+  },
+  "Hoocrates": {
+   "regions": [
+    "Bamboo Groves",
+    "Sea Breeze Archipelago",
+    "Deep Bamboo Thicket",
+    "Fortress Ruins",
+    "Foot of the Volcano",
+    "Windswept Island"
+   ],
+   "day_night": "night",
+   "alpha_locations": [
+    "Purveyor of Wisdom Hoocrates (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Dark Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Hoodle": {
+   "regions": [
+    "Azure Woodland",
+    "Enchanted Firmament",
+    "Waterlily Gorge",
+    "Sunreach Skies [Lv. 65-69]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 65-70)"
+   ],
+   "notes": null
+  },
+  "Icelyn": {
+   "regions": [
+    "Astral Mountains"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Icy Smile Icelyn (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon: Astral Mountains Cavern (Lv. 39-41)"
+   ],
+   "notes": "wild spawn (Lv. 42-44) exists but its area is not listed on the source (???)"
+  },
+  "Illuminant Bat": {
+   "regions": [
+    "Sealed Realm of Terraria - Terraria dungeon island SE of Fisherman's Point, near Isle of Eternal Summer"
+   ],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Illuminant Slime": {
+   "regions": [
+    "Sealed Realm of Terraria - Terraria dungeon island SE of Fisherman's Point, near Isle of Eternal Summer"
+   ],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Incineram": {
+   "regions": [
+    "Mount Obsidian",
+    "Foot of the Volcano",
+    "Phantom Isle",
+    "Ruined Fortress City"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Hyena of the Wild Incineram (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon: Volcanic Cavern (Lv. 32-36)",
+    "dungeon: Volcanic Cavern (Lv. 32-35)",
+    "dungeon loot egg (Scorching Egg)",
+    "attacks bases during raids (catchable) (Lv. 10-13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "enemy camps (Lv. 35)"
+   ],
+   "notes": null
+  },
+  "Incineram Noct": {
+   "regions": [
+    "No. 2 Wildlife Sanctuary"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "No. 2 Wildlife Sanctuary (Lv. 37-39)",
+    "attacks bases during raids (catchable) (Lv. 13-37)"
+   ],
+   "notes": null
+  },
+  "Jelliette": {
+   "regions": [
+    "Withered Seaside",
+    "Flying Fish Coast",
+    "Fortress Ruins",
+    "Twilight Dunes",
+    "Isle of Silence",
+    "Scorched Ashland"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Sunlight Drifter Jelliette (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon: Mountain Stream Grotto (Lv. 12-15)",
+    "dungeon loot egg (Damp Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 75-80)",
+    "fishing (Lv. 11-18)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": null
+  },
+  "Jellroy": {
+   "regions": [
+    "Deserted Ash Plateau",
+    "Scorched Ashland",
+    "Flying Fish Coast",
+    "Fortress Ruins",
+    "Withered Seaside",
+    "Twilight Dunes"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Shade Drifter Jellroy (Lv. 17-19) - Ravine Grotto"
+   ],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon: Ravine Grotto (Lv. 14-17)",
+    "dungeon loot egg (Damp Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 75-80)",
+    "fishing (Lv. 11-18)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": "wild spawn (Lv. 39-41) exists but its area is not listed on the source (???)"
+  },
+  "Jetragon": {
+   "regions": [],
+   "day_night": "both",
+   "alpha_locations": [
+    "Legendary Celestial Dragon Jetragon (Lv. 60) - as dungeon end-boss",
+    "Legendary Celestial Dragon Jetragon (Lv. 70) - Palpagos Islands (-553,-1332)"
+   ],
+   "egg_types": [
+    "Huge Dragon Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn - catch its boss/alpha (see alpha_locations)",
+    "breeding: same-species pair only (breeds true, no cross-combo produces it)"
+   ],
+   "notes": null
+  },
+  "Jolthog": {
+   "regions": [
+    "Windswept Island",
+    "Golden Hills"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Don't Touch! Jolthog (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Electric Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Electric Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Jolthog Cryst": {
+   "regions": [
+    "Bamboo Groves",
+    "Frostbitten Isle",
+    "Ancient Ritual Site",
+    "Foot of the Volcano"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Frozen Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-20)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 10-16)"
+   ],
+   "notes": null
+  },
+  "Jormuntide": {
+   "regions": [
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Emperor of the Sea Jormuntide (Lv. 55) - Palpagos Islands (350,-85)"
+   ],
+   "egg_types": [
+    "Huge Dragon Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Dragon Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Jormuntide Ignis": {
+   "regions": [
+    "Emberstone Plateau",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Dragon Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Dragon Egg)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": null
+  },
+  "Katress": {
+   "regions": [
+    "Ancient Ritual Site",
+    "Crescent Moon Shore",
+    "Gobfin's Turf",
+    "Foot of the Astral Mountains",
+    "Frostbound Mountains",
+    "Verdant Brook"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Phantasmal Feline Katress (Lv. 27-29) - Mountain Stream Grotto"
+   ],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Mountain Stream Grotto (Lv. 20-23)",
+    "dungeon loot egg (Large Dark Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Katress Ignis": {
+   "regions": [],
+   "day_night": null,
+   "alpha_locations": [
+    "Fire-Licked Feline Katress Ignis (Lv. 51-52) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn - catch its boss/alpha (see alpha_locations)",
+    "dungeon: Cherry Blossom Cave (Lv. 40-45)",
+    "dungeon loot egg (Large Dark Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "breeding combo: Katress + Wixen"
+   ],
+   "notes": null
+  },
+  "Kelpsea": {
+   "regions": [
+    "Sea Breeze Archipelago",
+    "Flying Fish Coast",
+    "Golden Hills",
+    "Fortress Ruins",
+    "Ancient Ritual Site",
+    "Marsh Island"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Child of the Deep Kelpsea (Lv. 17-19) - Ravine Grotto"
+   ],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon: Ravine Grotto (Lv. 14-17)",
+    "dungeon loot egg (Damp Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 15-20)",
+    "fishing (Lv. 11-18)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Kelpsea Ignis": {
+   "regions": [
+    "Dry Sandy Beach",
+    "Phantom Isle",
+    "Deserted Ash Plateau",
+    "Isle of Eternal Summer",
+    "Scorched Hill",
+    "Ruined Fortress City"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Child of the Molten Depths Kelpsea Ignis (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon: Volcanic Cavern (Lv. 32-35)",
+    "dungeon loot egg (Scorching Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 20-30)",
+    "fishing (Lv. 16-26)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Kikit": {
+   "regions": [
+    "Sakurajima - Southern Sandbar",
+    "Dancing Sakura Shrine",
+    "No. 2 Wildlife Sanctuary"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Armored to the Teeth Kikit (Lv. 47-49) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cherry Blossom Cave (Lv. 40-45)",
+    "dungeon loot egg (Rocky Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)"
+   ],
+   "notes": null
+  },
+  "Killamari": {
+   "regions": [
+    "Scorched Ashland",
+    "Deserted Ash Plateau",
+    "Foot of the Astral Mountains",
+    "Frostbound Mountains",
+    "Twilight Dunes",
+    "Scars of War"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Emotionless Killamari (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 5-10)",
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon: Hillside Cavern (Lv. 5-10)",
+    "dungeon loot egg (Dark Egg)",
+    "fishing (Lv. 11-18)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Killamari Primo": {
+   "regions": [
+    "Phantom Isle",
+    "Isle of Eternal Summer",
+    "Desiccated Dunes",
+    "Oasis Isle",
+    "Ruined Fortress City",
+    "Dry Sandy Beach"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Common Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 50-55)",
+    "fishing (Lv. 16-26)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": "wild spawn (Lv. 42-44) exists but its area is not listed on the source (???)"
+  },
+  "Kingpaca": {
+   "regions": [
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Supreme Fluff Commander Kingpaca (Lv. 23) - Palpagos Islands (50,-460)"
+   ],
+   "egg_types": [
+    "Huge Common Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Kingpaca Cryst": {
+   "regions": [],
+   "day_night": "both",
+   "alpha_locations": [
+    "Azure Fluff Commander Kingpaca Cryst (Lv. 46) - as dungeon end-boss",
+    "Azure Fluff Commander Kingpaca Cryst (Lv. 46) - Palpagos Islands (-385,356)"
+   ],
+   "egg_types": [
+    "Huge Frozen Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn - catch its boss/alpha (see alpha_locations)",
+    "dungeon loot egg (Huge Frozen Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)",
+    "breeding combo: Kingpaca + Reindrix"
+   ],
+   "notes": null
+  },
+  "Kitsun": {
+   "regions": [
+    "No. 2 Wildlife Sanctuary",
+    "Frostbound Mountains"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "No. 2 Wildlife Sanctuary (Lv. 35-38)",
+    "dungeon loot egg (Large Scorching Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 43)"
+   ],
+   "notes": null
+  },
+  "Kitsun Noct": {
+   "regions": [
+    "Scorched Hill",
+    "The Oculus Gate, Tower in Sight",
+    "Emberstone Plateau",
+    "Deserted Ash Plateau",
+    "Stone Pillar Cave",
+    "Hidden Passage to the Oculus Gate"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Guardian of the Dark Flame Kitsun Noct (Lv. 57) - as dungeon end-boss",
+    "Guardian of the Dark Flame Kitsun Noct (Lv. 56-58) - Feybreak Cavern",
+    "Guardian of the Dark Flame Kitsun Noct (Lv. 65) - Palpagos Islands (-847,-1307)"
+   ],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Dark Egg)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": null
+  },
+  "Knocklem": {
+   "regions": [
+    "Foot of the World Tree",
+    "No. 3 Wildlife Sanctuary",
+    "The World Tree [Lv. 71-73]",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Suit of Armor Knocklem (Lv. 55) - Palpagos Islands (-585,-250)"
+   ],
+   "egg_types": [
+    "Huge Rocky Egg"
+   ],
+   "other_sources": [
+    "No. 3 Wildlife Sanctuary (Lv. 55-60)",
+    "dungeon loot egg (Huge Rocky Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Knocklem Ignis": {
+   "regions": [
+    "Bicornis Islet",
+    "Foot of the World Tree",
+    "The World Tree [Lv. 71-73]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Scorching Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Lamball": {
+   "regions": [
+    "Eastern Wild Island",
+    "Sea Breeze Archipelago",
+    "Flying Fish Coast",
+    "Fortress Ruins",
+    "Windswept Island",
+    "Golden Hills"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Big Floof Lamball (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Common Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 10-20)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Lapiron": {
+   "regions": [
+    "Azure Woodland",
+    "Sunreach Skies [Lv. 63-64]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Indomitable Racer Lapiron (Lv. 65-69) - Sunreach Skies"
+   ],
+   "egg_types": [
+    "Rocky Egg"
+   ],
+   "other_sources": [
+    "Pal Recruiter (recruitable wandering pal) (Lv. 65-70)"
+   ],
+   "notes": null
+  },
+  "Lapure": {
+   "regions": [
+    "Enchanted Firmament",
+    "Crystalline Archipelago",
+    "Sunreach Skies [Lv. 65-69]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "caged pal in enemy camps (free to recruit) (Lv. 65-69)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 65-70)"
+   ],
+   "notes": null
+  },
+  "Leafan": {
+   "regions": [
+    "Enchanted Firmament",
+    "Gobfin's Turf",
+    "Verdant Brook",
+    "Scars of War"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Verdant Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 65-69)",
+    "attacks bases during raids (catchable) (Lv. 10)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Leezpunk": {
+   "regions": [
+    "Desiccated Dunes",
+    "Dry Sandy Beach",
+    "Foot of the Volcano",
+    "Isle of the Glacial Core",
+    "Scars of War",
+    "Frostbound Mountains"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Self-Proclaimed Genius Leezpunk (Lv. 36-38) - Volcanic Cavern",
+    "Self-Proclaimed Genius Leezpunk (Lv. 37-40) - Cavern of the Dunes"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Volcanic Cavern (Lv. 32-35)",
+    "dungeon: Cavern of the Dunes (Lv. 30-34)",
+    "dungeon: Cavern of the Dunes (Lv. 33-36)",
+    "dungeon loot egg (Dark Egg)",
+    "attacks bases during raids (catchable) (Lv. 5-35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Leezpunk Ignis": {
+   "regions": [
+    "Foot of the Volcano",
+    "Mount Obsidian",
+    "Dry Sandy Beach"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Self-Proclaimed Fashionista Leezpunk Ignis (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon: Volcanic Cavern (Lv. 32-36)",
+    "dungeon: Volcanic Cavern (Lv. 32-35)",
+    "dungeon loot egg (Scorching Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-40)",
+    "attacks bases during raids (catchable) (Lv. 10)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Lifmunk": {
+   "regions": [
+    "Sea Breeze Archipelago",
+    "Isle of Murmurs",
+    "Fortress Ruins",
+    "Marsh Island",
+    "Windswept Island",
+    "Deep Bamboo Thicket"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Coward of the Steppe Lifmunk (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Verdant Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-10)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Loomen": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 75-77]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Loupmoon": {
+   "regions": [
+    "Deep Bamboo Thicket",
+    "Bamboo Groves",
+    "Ancient Ritual Site",
+    "Gobfin's Turf",
+    "Crescent Moon Shore",
+    "Twilight Dunes"
+   ],
+   "day_night": "night",
+   "alpha_locations": [
+    "Enraptured by Moonlight Loupmoon (Lv. 27-29) - Mountain Stream Grotto"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Mountain Stream Grotto (Lv. 20-23)",
+    "dungeon: Mountain Stream Grotto (Lv. 22-25)",
+    "dungeon loot egg (Dark Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 54)"
+   ],
+   "notes": null
+  },
+  "Loupmoon Cryst": {
+   "regions": [
+    "Foot of the Astral Mountains",
+    "The Oculus Gate, Tower in Sight",
+    "Frozen Coral Hill",
+    "No. 1 Wildlife Sanctuary",
+    "Astral Mountains",
+    "Hidden Passage to the Oculus Gate"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Enraptured by the Frozen Moonlight Loupmoon Cryst (Lv. 54) - as dungeon end-boss",
+    "Enraptured by the Frozen Moonlight Loupmoon Cryst (Lv. 56-58) - Feybreak Cavern",
+    "Enraptured by the Frozen Moonlight Loupmoon Cryst (Lv. 66) - Palpagos Islands (-1147,-1414)"
+   ],
+   "egg_types": [
+    "Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Frozen Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-40)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)",
+    "incident/outbreak events (Lv. 54)"
+   ],
+   "notes": null
+  },
+  "Lovander": {
+   "regions": [
+    "Desiccated Dunes",
+    "Twilight Dunes",
+    "Isle of the Glacial Core",
+    "Scars of War",
+    "Frostbound Mountains",
+    "No. 3 Wildlife Sanctuary"
+   ],
+   "day_night": "night",
+   "alpha_locations": [
+    "Pal on the Prowl Lovander (Lv. 37-40) - Cavern of the Dunes"
+   ],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cavern of the Dunes (Lv. 35-37)",
+    "dungeon loot egg (Large Dark Egg)",
+    "attacks bases during raids (catchable) (Lv. 10-35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Lullu": {
+   "regions": [
+    "Dancing Sakura Shrine",
+    "Sakurajima - Northern Rock Field"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Primal Source of Hay Fever Lullu (Lv. 47-49) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cherry Blossom Cave (Lv. 40-45)",
+    "dungeon loot egg (Verdant Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-65)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)"
+   ],
+   "notes": null
+  },
+  "Lunaris": {
+   "regions": [
+    "Foot of the Astral Mountains",
+    "Flying Fish Coast",
+    "Astral Mountains",
+    "Isle of Eternal Summer",
+    "Sea Breeze Archipelago"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Extraterrestrial Lunaris (Lv. 35) - Palpagos Islands (129,-50)",
+    "Extraterrestrial Lunaris (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Large Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Astral Mountains Cavern (Lv. 38-42)",
+    "No. 1 Wildlife Sanctuary (Lv. 25-28)",
+    "dungeon loot egg (Large Common Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 25-30)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Lyleen": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 75-77]",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Empress of Lilies Lyleen (Lv. 58-59) - Palpagos Islands (-632,302)"
+   ],
+   "egg_types": [
+    "Huge Verdant Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Lyleen Noct": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 75-77]",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Empress of the Abyss Lyleen Noct (Lv. 49) - as dungeon end-boss",
+    "Empress of the Abyss Lyleen Noct (Lv. 58-59) - Palpagos Islands (-628,304)"
+   ],
+   "egg_types": [
+    "Huge Dark Egg"
+   ],
+   "other_sources": [
+    "incident/outbreak events (Lv. 50)"
+   ],
+   "notes": null
+  },
+  "Majex": {
+   "regions": [
+    "Foot of the World Tree",
+    "No. 2 Wildlife Sanctuary",
+    "The World Tree [Lv. 75-77]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "No. 2 Wildlife Sanctuary (Lv. 35-38)"
+   ],
+   "notes": null
+  },
+  "Mammorest": {
+   "regions": [
+    "Foot of the Astral Mountains",
+    "Bamboo Groves",
+    "Flying Fish Coast",
+    "Golden Hills",
+    "Windswept Island",
+    "Fortress Ruins",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "King of the Forest Mammorest (Lv. 38) - Palpagos Islands (189,-478)"
+   ],
+   "egg_types": [
+    "Huge Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Verdant Egg)",
+    "attacks bases during raids (catchable) (Lv. 24)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 35)"
+   ],
+   "notes": null
+  },
+  "Mammorest Cryst": {
+   "regions": [
+    "No. 1 Wildlife Sanctuary",
+    "Foot of the Astral Mountains",
+    "Isle of the Glacial Core",
+    "Abandoned Ruins",
+    "Sakurajima - Northern Rock Field",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "King of the Tundra Mammorest Cryst (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Huge Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Frozen Egg)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Maraith": {
+   "regions": [
+    "Foot of the Astral Mountains",
+    "No. 1 Wildlife Sanctuary",
+    "Astral Mountains",
+    "Twilight Dunes",
+    "Abandoned Ruins",
+    "Isle of the Glacial Core"
+   ],
+   "day_night": "night",
+   "alpha_locations": [
+    "Messenger of Death Maraith (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Astral Mountains Cavern (Lv. 38-42)",
+    "dungeon: Astral Mountains Cavern (Lv. 39-41)",
+    "dungeon: Cherry Blossom Cave (Lv. 46-50)",
+    "dungeon loot egg (Large Dark Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 55-60)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)",
+    "incident/outbreak events (Lv. 27)"
+   ],
+   "notes": null
+  },
+  "Mau": {
+   "regions": [],
+   "day_night": null,
+   "alpha_locations": [
+    "Noble Glimmer Mau (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 5-10)",
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon: Ravine Grotto (Lv. 12-15)",
+    "dungeon: Hillside Cavern (Lv. 5-10)",
+    "caged pal in enemy camps (free to recruit) (Lv. 15-25)"
+   ],
+   "notes": null
+  },
+  "Mau Cryst": {
+   "regions": [
+    "Foot of the Astral Mountains",
+    "Isle of the Glacial Core"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Serene Glimmer Mau Cryst (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon: Astral Mountains Cavern (Lv. 39-41)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-30)",
+    "incident/outbreak events (Lv. 34)"
+   ],
+   "notes": null
+  },
+  "Melpaca": {
+   "regions": [
+    "Eastern Wild Island",
+    "Sea Breeze Archipelago",
+    "Golden Hills",
+    "Marsh Island",
+    "Autumn Rocks",
+    "Windswept Island"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Pompous Shanks Melpaca (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Common Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Menasting": {
+   "regions": [
+    "Desiccated Dunes",
+    "Scars of War",
+    "Isle of the Glacial Core",
+    "Frostbound Mountains",
+    "No. 3 Wildlife Sanctuary",
+    "Oasis Isle"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Unstoppable Stinger Menasting (Lv. 44) - Palpagos Islands (350,537)"
+   ],
+   "egg_types": [
+    "Huge Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Dark Egg)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Menasting Terra": {
+   "regions": [
+    "No. 3 Wildlife Sanctuary"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Gold-Piercing Spear Menasting Terra (Lv. 54) - as dungeon end-boss",
+    "Gold-Piercing Spear Menasting Terra (Lv. 55) - Palpagos Islands (-582,317)"
+   ],
+   "egg_types": [
+    "Huge Rocky Egg"
+   ],
+   "other_sources": [
+    "No. 3 Wildlife Sanctuary (Lv. 48-52)",
+    "dungeon loot egg (Huge Rocky Egg)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)"
+   ],
+   "notes": null
+  },
+  "Mimog": {
+   "regions": [
+    "Desiccated Dunes",
+    "Foot of the World Tree",
+    "Deserted Ash Plateau",
+    "Scorched Ashland",
+    "Scorched Hill",
+    "Frozen Coral Hill",
+    "The World Tree [Lv. 70-72]",
+    "The World Tree [Lv. 80]",
+    "The World Tree [Lv. 71-73]",
+    "The World Tree [Lv. 74-76]",
+    "The World Tree [Lv. 75-77]",
+    "The World Tree [Lv. 72-74]",
+    "The World Tree [Lv. 76-78]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Common Egg"
+   ],
+   "other_sources": [
+    "dungeon (as chest Mimog ambush) (Lv. 5-10)",
+    "dungeon (as chest Mimog ambush) (Lv. 12-15)",
+    "dungeon (as chest Mimog ambush) (Lv. 20-23)",
+    "dungeon (as chest Mimog ambush) (Lv. 32-36)",
+    "dungeon (as chest Mimog ambush) (Lv. 35-37)",
+    "dungeon (as chest Mimog ambush) (Lv. 38-42)"
+   ],
+   "notes": null
+  },
+  "Moldron": {
+   "regions": [
+    "Mount Obsidian",
+    "Bicornis Islet",
+    "Foot of the Volcano",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Scorched Wanderer Moldron (Lv. 70) - Palpagos Islands (-1126,-1981)"
+   ],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Scorching Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Moldron Cryst": {
+   "regions": [],
+   "day_night": "both",
+   "alpha_locations": [
+    "Frigid Voyager Moldron Cryst (Lv. 78) - The World Tree (-65,816)"
+   ],
+   "egg_types": [
+    "Huge Frozen Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn - catch its boss/alpha (see alpha_locations)",
+    "breeding combo: Moldron + Reptyro Cryst"
+   ],
+   "notes": null
+  },
+  "Mossanda": {
+   "regions": [
+    "Gobfin's Turf",
+    "Verdant Brook",
+    "Scars of War",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Wanderer of the Forest Mossanda (Lv. 27-29) - Mountain Stream Grotto"
+   ],
+   "egg_types": [
+    "Large Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Verdant Egg)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 35-38)"
+   ],
+   "notes": null
+  },
+  "Mossanda Lux": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 70-72]",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Inheritor of the Storm Mossanda Lux (Lv. 31) - Palpagos Islands (448,-181)"
+   ],
+   "egg_types": [
+    "Large Electric Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cavern of the Dunes (Lv. 35-37)",
+    "caged pal in enemy camps (free to recruit) (Lv. 15-40)"
+   ],
+   "notes": null
+  },
+  "Mozzarina": {
+   "regions": [
+    "Marsh Island",
+    "Fortress Ruins",
+    "Windswept Island"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Prime Beef Mozzarina (Lv. 17-19) - Ravine Grotto"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Ravine Grotto (Lv. 14-17)",
+    "dungeon loot egg (Common Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 8-9)"
+   ],
+   "notes": null
+  },
+  "Muffly": {
+   "regions": [
+    "Ancient Ritual Site",
+    "Crescent Moon Shore",
+    "Autumn Rocks",
+    "Gobfin's Turf",
+    "Waterlily Gorge",
+    "Crystalline Archipelago"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Totally Toasty Muffly (Lv. 27-29) - Mountain Stream Grotto"
+   ],
+   "egg_types": [
+    "Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon: Mountain Stream Grotto (Lv. 22-25)",
+    "dungeon loot egg (Frozen Egg)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 15-16)"
+   ],
+   "notes": null
+  },
+  "Munchill": {
+   "regions": [
+    "Frozen Coral Hill",
+    "Feybreak Shipwreck",
+    "The Oculus Gate, Tower in Sight",
+    "Isle of the Glacial Core",
+    "Frostbound Mountains",
+    "Bicornis Islet"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Walking Refrigerator Munchill (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon: Astral Mountains Cavern (Lv. 39-41)",
+    "dungeon loot egg (Frozen Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 55-60)",
+    "fishing (Lv. 16-26)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Mycora": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 75-77]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Cute as a Button Mycora (Lv. 78) - The World Tree (-35,731)"
+   ],
+   "egg_types": [
+    "Large Verdant Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Necromus": {
+   "regions": [],
+   "day_night": null,
+   "alpha_locations": [
+    "Dark Knight of Legend Necromus (Lv. 60) - Palpagos Islands (440,679)"
+   ],
+   "egg_types": [
+    "Huge Dark Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn - catch its boss/alpha (see alpha_locations)",
+    "breeding: same-species pair only (breeds true, no cross-combo produces it)"
+   ],
+   "notes": null
+  },
+  "Needoll": {
+   "regions": [
+    "Desiccated Dunes",
+    "Isle of the Glacial Core",
+    "No. 3 Wildlife Sanctuary",
+    "Scars of War",
+    "Frostbound Mountains",
+    "Scouring Islet"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Prickly Welcome Needoll (Lv. 40) - Palpagos Islands (433,-711)"
+   ],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Needoll Noct": {
+   "regions": [
+    "Desiccated Dunes",
+    "Isle of the Glacial Core",
+    "No. 3 Wildlife Sanctuary",
+    "Scars of War",
+    "Frostbound Mountains",
+    "Oasis Isle"
+   ],
+   "day_night": "night",
+   "alpha_locations": [],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Neptilius": {
+   "regions": [],
+   "day_night": "both",
+   "alpha_locations": [
+    "Legend of the Seas Neptilius (Lv. 60) - Palpagos Islands (139,651)"
+   ],
+   "egg_types": [
+    "Huge Damp Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn - catch its boss/alpha (see alpha_locations)",
+    "breeding: same-species pair only (breeds true, no cross-combo produces it)"
+   ],
+   "notes": null
+  },
+  "Nitemary": {
+   "regions": [
+    "The Oculus Gate, Tower in Sight",
+    "Frozen Coral Hill",
+    "Feybreak Shipwreck",
+    "Hidden Passage to the Oculus Gate"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Soul of the Dark Rabbit Nitemary (Lv. 60) - Palpagos Islands (-923,-1014)",
+    "Soul of the Dark Rabbit Nitemary (Lv. 56-58) - Feybreak Cavern",
+    "Soul of the Dark Rabbit Nitemary (Lv. 66) - yamijima_IceLand_pink_C_BOSS"
+   ],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Dark Egg)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)",
+    "incident/outbreak events (Lv. 54-57)"
+   ],
+   "notes": null
+  },
+  "Nitemary Botan": {
+   "regions": [
+    "Islet of Circular Ruins"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Verdant Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Nitewing": {
+   "regions": [
+    "Marsh Island",
+    "Bamboo Groves",
+    "Golden Hills",
+    "Sea Breeze Archipelago",
+    "Autumn Rocks",
+    "Foot of the Volcano"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Wings of the Firmament Nitewing (Lv. 18) - Palpagos Islands (-276,-70)",
+    "Wings of the Firmament Nitewing (Lv. 37-40) - Cavern of the Dunes"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Common Egg)",
+    "attacks bases during raids (catchable) (Lv. 24)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Nox": {
+   "regions": [
+    "Isle of Silence",
+    "Isle of Murmurs",
+    "Fortress Ruins",
+    "Windswept Island"
+   ],
+   "day_night": "night",
+   "alpha_locations": [
+    "Nighttime Prince Nox (Lv. 17-19) - Ravine Grotto"
+   ],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Ravine Grotto (Lv. 12-15)",
+    "dungeon loot egg (Large Dark Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-25)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 28-29)"
+   ],
+   "notes": null
+  },
+  "Nyafia": {
+   "regions": [
+    "Stone Pillar Cave",
+    "Scorched Ashland",
+    "Withered Seaside",
+    "Scorched Hill",
+    "Emberstone Plateau",
+    "Sandstone Gate Islet"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Night Shade Hunter Nyafia (Lv. 57) - as dungeon end-boss",
+    "Night Shade Hunter Nyafia (Lv. 56-58) - Feybreak Cavern",
+    "Night Shade Hunter Nyafia (Lv. 60) - Palpagos Islands (-920,-917)"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Feybreak Cavern (Lv. 52-56)",
+    "dungeon loot egg (Dark Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-40)",
+    "attacks bases during raids (catchable) (Lv. 10)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)",
+    "incident/outbreak events (Lv. 57)"
+   ],
+   "notes": null
+  },
+  "Omascul": {
+   "regions": [
+    "Deserted Ash Plateau",
+    "Scorched Ashland",
+    "Scorched Hill",
+    "Frozen Coral Hill",
+    "The Oculus Gate, Tower in Sight",
+    "Loess Plains"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Hundred-Faced Apostle Omascul (Lv. 55) - as dungeon end-boss",
+    "Hundred-Faced Apostle Omascul (Lv. 56-58) - Feybreak Cavern",
+    "Hundred-Faced Apostle Omascul (Lv. 60) - Palpagos Islands (-708,-930)"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Dark Egg)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)",
+    "incident/outbreak events (Lv. 55)"
+   ],
+   "notes": null
+  },
+  "Ophydia": {
+   "regions": [
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Pure Bloom Dragon Ophydia (Lv. 69) - Palpagos Islands (-590,-1478)"
+   ],
+   "egg_types": [
+    "Huge Verdant Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Orserk": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 74-76]",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Dragon Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Paladius": {
+   "regions": [],
+   "day_night": "both",
+   "alpha_locations": [
+    "Holy Knight of Legend Paladius (Lv. 60) - Palpagos Islands (440,679)"
+   ],
+   "egg_types": [
+    "Huge Common Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn - catch its boss/alpha (see alpha_locations)",
+    "breeding: same-species pair only (breeds true, no cross-combo produces it)"
+   ],
+   "notes": null
+  },
+  "Palumba": {
+   "regions": [
+    "Desiccated Dunes",
+    "No. 3 Wildlife Sanctuary",
+    "Isle of Eternal Summer",
+    "Oasis Isle",
+    "Isle of the Glacial Core"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "No Dance, No Life Palumba (Lv. 47-49) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Large Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cherry Blossom Cave (Lv. 40-45)",
+    "dungeon loot egg (Large Verdant Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Panthalus": {
+   "regions": [],
+   "day_night": null,
+   "alpha_locations": [
+    "Legendary Ocean King (Lv. 70): summoned with the Echoing Flute (main questline), teleports to a water arena with tsunami waves (player-reported, 2026-07-16)"
+   ],
+   "egg_types": [
+    "Huge Damp Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn - catch its boss/alpha (see alpha_locations)",
+    "breeding: same-species pair only (breeds true, no cross-combo produces it)"
+   ],
+   "notes": null
+  },
+  "Pengullet": {
+   "regions": [
+    "Flying Fish Coast",
+    "Isle of Murmurs",
+    "Fortress Ruins",
+    "Eastern Wild Island",
+    "Foot of the Astral Mountains",
+    "Sea Breeze Archipelago"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Ate Too Much Pengullet (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern",
+    "Ate Too Much Pengullet (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon: Astral Mountains Cavern (Lv. 39-41)",
+    "dungeon loot egg (Damp Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-30)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "fishing (Lv. 11-18)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Pengullet Lux": {
+   "regions": [
+    "Scars of War",
+    "Isle of the Glacial Core",
+    "Oasis Isle",
+    "Frostbound Mountains",
+    "Flamepulse Islet",
+    "Desiccated Dunes"
+   ],
+   "day_night": "night",
+   "alpha_locations": [],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "caged pal in enemy camps (free to recruit) (Lv. 50-55)",
+    "fishing (Lv. 16-26)"
+   ],
+   "notes": null
+  },
+  "Penking": {
+   "regions": [
+    "Foot of the Astral Mountains",
+    "Frostbound Mountains",
+    "Flying Fish Coast",
+    "Sunlit Isle",
+    "Scars of War",
+    "Isle of the Glacial Core"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Pioneer of the Frozen Sea Penking (Lv. 15) - Palpagos Islands (114,-352)"
+   ],
+   "egg_types": [
+    "Large Damp Egg"
+   ],
+   "other_sources": [
+    "No. 1 Wildlife Sanctuary (Lv. 20-23)",
+    "dungeon loot egg (Large Damp Egg)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "fishing (Lv. 11-18)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Penking Lux": {
+   "regions": [
+    "Dancing Sakura Shrine",
+    "Sakurajima - Mushroom Wetlands",
+    "Sakurajima - Southern Sandbar",
+    "Phantom Isle",
+    "Sakurajima - Northern Rock Field",
+    "No. 3 Wildlife Sanctuary"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Damp Egg"
+   ],
+   "other_sources": [
+    "fishing (Lv. 36-48)"
+   ],
+   "notes": null
+  },
+  "Petallia": {
+   "regions": [
+    "Crescent Moon Shore",
+    "Dancing Sakura Shrine",
+    "Twilight Dunes",
+    "Sakurajima - Northern Rock Field"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Verdant Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Petallia Ignis": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 71-73]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Verdant Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Pierdon": {
+   "regions": [
+    "Flamepulse Islet"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Shambling Vein Pierdon (Lv. 50) - Palpagos Islands (819,467)"
+   ],
+   "egg_types": [
+    "Large Rocky Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Pierdon Cryst": {
+   "regions": [
+    "Farcry Marsh",
+    "Crystalline Archipelago"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Shuffling Glacier Pierdon Cryst (Lv. 69) - as dungeon end-boss"
+   ],
+   "egg_types": [
+    "Large Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Frozen Egg)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": null
+  },
+  "Polapup": {
+   "regions": [
+    "Frozen Coral Hill",
+    "Feybreak Shipwreck",
+    "The Oculus Gate, Tower in Sight",
+    "Isle of the Glacial Core",
+    "Frostbound Mountains",
+    "Bicornis Islet"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Idol on Ice Polapup (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Large Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon: Astral Mountains Cavern (Lv. 39-41)",
+    "dungeon: Astral Mountains Cavern (Lv. 42-44)",
+    "dungeon loot egg (Large Frozen Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 55-60)",
+    "fishing (Lv. 16-26)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Polapup Terra": {
+   "regions": [
+    "Suncrest Islet"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Frozen Egg"
+   ],
+   "other_sources": [
+    "fishing (Lv. 36-48)"
+   ],
+   "notes": null
+  },
+  "Prixter": {
+   "regions": [
+    "Sakurajima - Southern Sandbar",
+    "Dancing Sakura Shrine",
+    "No. 2 Wildlife Sanctuary"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Dark Egg)",
+    "attacks bases during raids (catchable) (Lv. 13-23)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)",
+    "incident/outbreak events (Lv. 45-48)"
+   ],
+   "notes": null
+  },
+  "Prixter Lux": {
+   "regions": [
+    "Sandstone Gate Islet"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Thunderboy Prixter Lux (Lv. 70) - Palpagos Islands (-1314,-612)"
+   ],
+   "egg_types": [
+    "Large Electric Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Prunelia": {
+   "regions": [
+    "Scorched Hill",
+    "Loess Plains",
+    "Hidden Passage to the Oculus Gate",
+    "Deserted Ash Plateau",
+    "The Oculus Gate, Tower in Sight",
+    "Emberstone Plateau"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Indigo Handmaiden Prunelia (Lv. 63) - Palpagos Islands (-1355,-968)",
+    "Indigo Handmaiden Prunelia (Lv. 56-58) - Feybreak Cavern",
+    "Indigo Handmaiden Prunelia (Lv. 65) - yamijima_plateau_pink_G_BOSS"
+   ],
+   "egg_types": [
+    "Large Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Feybreak Cavern (Lv. 50-55)",
+    "dungeon loot egg (Large Verdant Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-40)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)",
+    "incident/outbreak events (Lv. 54-57)"
+   ],
+   "notes": null
+  },
+  "Puffolt": {
+   "regions": [
+    "Bamboo Groves",
+    "Farcry Marsh",
+    "Crystalline Archipelago",
+    "Ancient Ritual Site",
+    "Foot of the Volcano",
+    "Sunreach Skies [Lv. 63-64]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Sulky Static Puffolt (Lv. 65-69) - Sunreach Skies"
+   ],
+   "egg_types": [
+    "Electric Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Electric Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 65-69)",
+    "attacks bases during raids (catchable) (Lv. 10)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Pupperai": {
+   "regions": [
+    "Flying Fish Coast",
+    "Windswept Island"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Rocky Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Purple Slime": {
+   "regions": [
+    "Sealed Realm of Terraria - Terraria dungeon island SE of Fisherman's Point, near Isle of Eternal Summer"
+   ],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Pyrin": {
+   "regions": [
+    "Mount Obsidian",
+    "Foot of the Volcano",
+    "Ruined Fortress City",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Steed of Flames Pyrin (Lv. 29) - as dungeon end-boss",
+    "Steed of Flames Pyrin (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Scorching Egg)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 35-38)"
+   ],
+   "notes": null
+  },
+  "Pyrin Noct": {
+   "regions": [
+    "Dry Sandy Beach",
+    "Foot of the Volcano",
+    "Mount Obsidian",
+    "Ruined Fortress City",
+    "Phantom Isle",
+    "No. 2 Wildlife Sanctuary",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Steed of Darkness Pyrin Noct (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon: Volcanic Cavern (Lv. 32-36)",
+    "No. 2 Wildlife Sanctuary (Lv. 35-38)",
+    "attacks bases during raids (catchable) (Lv. 35)"
+   ],
+   "notes": null
+  },
+  "Quivern": {
+   "regions": [
+    "Enchanted Firmament",
+    "No. 1 Wildlife Sanctuary",
+    "Astral Mountains",
+    "Foot of the Astral Mountains",
+    "Farcry Marsh",
+    "Waterlily Gorge",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Snow-White Soarer Quivern (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Large Dragon Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Dragon Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Quivern Botan": {
+   "regions": [
+    "Dancing Sakura Shrine",
+    "Sakurajima - Northern Rock Field",
+    "Sakurajima - Mushroom Wetlands",
+    "No. 1 Wildlife Sanctuary",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Evergreen Flyer Quivern Botan (Lv. 51-52) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Huge Dragon Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Dragon Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Ragnahawk": {
+   "regions": [
+    "Mount Obsidian",
+    "Foot of the Volcano",
+    "Phantom Isle",
+    "Emberstone Plateau",
+    "Ruined Fortress City",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Wings of Inferno Ragnahawk (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Scorching Egg)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 44-57)"
+   ],
+   "notes": null
+  },
+  "Rainbow Slime": {
+   "regions": [
+    "Sealed Realm of Terraria - Terraria dungeon island SE of Fisherman's Point, near Isle of Eternal Summer"
+   ],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Rayhound": {
+   "regions": [
+    "Foot of the Astral Mountains",
+    "Loess Plains",
+    "Crystalized Ancient Tree",
+    "The Oculus Gate, Tower in Sight",
+    "No. 1 Wildlife Sanctuary",
+    "Twilight Dunes"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Electro-Charged Zoomies Rayhound (Lv. 37-40) - Cavern of the Dunes"
+   ],
+   "egg_types": [
+    "Large Electric Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Electric Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 20-30)",
+    "attacks bases during raids (catchable) (Lv. 13-23)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)",
+    "incident/outbreak events (Lv. 36-57)"
+   ],
+   "notes": null
+  },
+  "Rayhound Cryst": {
+   "regions": [
+    "Foot of the World Tree",
+    "No. 1 Wildlife Sanctuary",
+    "Foot of the Astral Mountains",
+    "Abandoned Ruins",
+    "Isle of the Glacial Core",
+    "Sakurajima - Northern Rock Field",
+    "The World Tree [Lv. 75-77]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Frozen Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Red Slime": {
+   "regions": [
+    "Sealed Realm of Terraria - Terraria dungeon island SE of Fisherman's Point, near Isle of Eternal Summer"
+   ],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Scorching Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Reindrix": {
+   "regions": [
+    "No. 1 Wildlife Sanctuary",
+    "Frostbound Mountains",
+    "Abandoned Ruins",
+    "Sakurajima - Northern Rock Field",
+    "Foot of the Astral Mountains",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Frosthorn Beast Reindrix (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Frozen Egg)",
+    "attacks bases during raids (catchable) (Lv. 37)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Relaxaurus": {
+   "regions": [
+    "Bamboo Groves",
+    "Frostbound Mountains",
+    "Foot of the Volcano",
+    "Twilight Dunes",
+    "Scorched Hill",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Dragon Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Dragon Egg)",
+    "attacks bases during raids (catchable) (Lv. 10-35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 15-20)"
+   ],
+   "notes": null
+  },
+  "Relaxaurus Lux": {
+   "regions": [
+    "Scorched Hill",
+    "Hidden Passage to the Oculus Gate",
+    "Stone Pillar Cave",
+    "Frozen Coral Hill",
+    "The Oculus Gate, Tower in Sight",
+    "Scorched Ashland",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Dragon Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Dragon Egg)",
+    "attacks bases during raids (catchable) (Lv. 23)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 48)"
+   ],
+   "notes": null
+  },
+  "Renjishi": {
+   "regions": [
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Scorching Ovation Renjishi (Lv. 78) - The World Tree (56,838)"
+   ],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Reptyro": {
+   "regions": [
+    "Ruined Fortress City",
+    "Mount Obsidian",
+    "Foot of the Volcano"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Lava-Devouring Juggernaut Reptyro (Lv. 50) - Palpagos Islands (-548,-433)",
+    "Lava-Devouring Juggernaut Reptyro (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Scorching Egg)",
+    "attacks bases during raids (catchable) (Lv. 23)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 37)"
+   ],
+   "notes": null
+  },
+  "Reptyro Cryst": {
+   "regions": [
+    "Frozen Coral Hill",
+    "Astral Mountains"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Ice-Breaking Juggernaut Reptyro Cryst (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Large Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon: Astral Mountains Cavern (Lv. 42-44)",
+    "dungeon loot egg (Large Frozen Egg)",
+    "attacks bases during raids (catchable) (Lv. 29)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Ribbuny": {
+   "regions": [
+    "Eastern Wild Island",
+    "Crescent Moon Shore",
+    "Isle of Silence",
+    "Isle of Murmurs",
+    "Deep Bamboo Thicket",
+    "Marsh Island"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Heart-Melting Smile Ribbuny (Lv. 17-19) - Ravine Grotto"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Ravine Grotto (Lv. 14-17)",
+    "dungeon loot egg (Common Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 11-53)"
+   ],
+   "notes": null
+  },
+  "Ribbuny Botan": {
+   "regions": [
+    "Crescent Moon Shore",
+    "Bamboo Groves",
+    "Foot of the Volcano",
+    "Twilight Dunes",
+    "Deep Bamboo Thicket",
+    "Ancient Ritual Site"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Sparkling Smile Ribbuny Botan (Lv. 53) - as dungeon end-boss",
+    "Sparkling Smile Ribbuny Botan (Lv. 56-58) - Feybreak Cavern"
+   ],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Feybreak Cavern (Lv. 50-55)",
+    "dungeon loot egg (Verdant Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-40)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 53)"
+   ],
+   "notes": null
+  },
+  "Robinquill": {
+   "regions": [
+    "Gobfin's Turf",
+    "Verdant Brook",
+    "Scars of War"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Archer of the Forest Robinquill (Lv. 27-29) - Mountain Stream Grotto"
+   ],
+   "egg_types": [
+    "Large Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Mountain Stream Grotto (Lv. 22-25)",
+    "dungeon loot egg (Large Verdant Egg)",
+    "attacks bases during raids (catchable) (Lv. 37)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 21-28)"
+   ],
+   "notes": null
+  },
+  "Robinquill Terra": {
+   "regions": [
+    "Desiccated Dunes",
+    "Scars of War",
+    "Isle of the Glacial Core",
+    "Frostbound Mountains",
+    "No. 3 Wildlife Sanctuary",
+    "Oasis Isle"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Archer of the Sands Robinquill Terra (Lv. 37-40) - Cavern of the Dunes"
+   ],
+   "egg_types": [
+    "Large Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cavern of the Dunes (Lv. 33-36)",
+    "dungeon loot egg (Large Verdant Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-55)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)",
+    "incident/outbreak events (Lv. 36)",
+    "enemy camps (Lv. 40)"
+   ],
+   "notes": null
+  },
+  "Rooby": {
+   "regions": [
+    "Isle of Murmurs",
+    "Sea Breeze Archipelago",
+    "Marsh Island",
+    "Autumn Rocks",
+    "Scars of War",
+    "Golden Hills"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Chief of the Herd Rooby (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Scorching Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 20-30)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Roujay": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 74-76]",
+    "The World Tree [Lv. 76-78]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Rushoar": {
+   "regions": [
+    "Sea Breeze Archipelago",
+    "Golden Hills",
+    "Autumn Rocks",
+    "Windswept Island",
+    "Marsh Island"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Woodland Ruffian Rushoar (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Rocky Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 15-25)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Sekhmet": {
+   "regions": [
+    "Desiccated Dunes",
+    "Isle of the Glacial Core",
+    "Sandstone Gate Islet",
+    "No. 3 Wildlife Sanctuary",
+    "Scars of War",
+    "Frostbound Mountains",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Rocky Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Selyne": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 76-78]",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Dark Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Shadowbeak": {
+   "regions": [
+    "No. 3 Wildlife Sanctuary",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Dark Egg"
+   ],
+   "other_sources": [
+    "No. 3 Wildlife Sanctuary (Lv. 50-55)"
+   ],
+   "notes": null
+  },
+  "Shaolong": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 76-78]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Dragon Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Shroomer": {
+   "regions": [
+    "Sakurajima - Mushroom Wetlands",
+    "Isle of Silence"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Creeping Mushroom Shroomer (Lv. 47-49) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cherry Blossom Cave (Lv. 40-45)",
+    "dungeon loot egg (Verdant Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-35)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)",
+    "incident/outbreak events (Lv. 50)"
+   ],
+   "notes": "wild spawn (Lv. 39-41) exists but its area is not listed on the source (???)"
+  },
+  "Shroomer Noct": {
+   "regions": [
+    "Frozen Coral Hill",
+    "Sakurajima - Mushroom Wetlands",
+    "Feybreak Shipwreck",
+    "Isle of Silence",
+    "The Oculus Gate, Tower in Sight"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Dangerous Mushroom Shroomer Noct (Lv. 51-52) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Large Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cherry Blossom Cave (Lv. 40-45)",
+    "dungeon loot egg (Large Verdant Egg)",
+    "attacks bases during raids (catchable) (Lv. 23)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": "wild spawn (Lv. 39-41) exists but its area is not listed on the source (???)"
+  },
+  "Sibelyx": {
+   "regions": [
+    "No. 1 Wildlife Sanctuary",
+    "Astral Mountains",
+    "Sakurajima - Northern Rock Field",
+    "Abandoned Ruins"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Pallid Lady Sibelyx (Lv. 40) - Palpagos Islands (252,69)",
+    "Pallid Lady Sibelyx (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Large Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon: Astral Mountains Cavern (Lv. 38-42)",
+    "dungeon loot egg (Large Frozen Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 25-30)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 40)"
+   ],
+   "notes": null
+  },
+  "Sibelyx Primo": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 75-77]",
+    "The World Tree [Lv. 76-78]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Common Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Silvance": {
+   "regions": [],
+   "day_night": null,
+   "alpha_locations": [
+    "Immortal Shade Silvance (Lv. 78) - Shinespore Root"
+   ],
+   "egg_types": [
+    "Huge Verdant Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn - catch its boss/alpha (see alpha_locations)",
+    "breeding: same-species pair only (breeds true, no cross-combo produces it)"
+   ],
+   "notes": null
+  },
+  "Silvegis": {
+   "regions": [
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Guardian Dragon of Ironclad Silvegis (Lv. 59) - as dungeon end-boss",
+    "Guardian Dragon of Ironclad Silvegis (Lv. 62) - Palpagos Islands (-985,-1023)"
+   ],
+   "egg_types": [
+    "Huge Dragon Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Dragon Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": null
+  },
+  "Skutlass": {
+   "regions": [
+    "Waterlily Gorge",
+    "Farcry Marsh",
+    "Enchanted Firmament",
+    "Twilight Dunes",
+    "Crystalline Archipelago",
+    "Azure Woodland"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Damp Egg)",
+    "attacks bases during raids (catchable) (Lv. 10)",
+    "fishing (Lv. 36-48)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Skutlass Ignis": {
+   "regions": [
+    "Foot of the World Tree",
+    "Flamepulse Islet"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Damp Egg"
+   ],
+   "other_sources": [
+    "fishing (Lv. 36-48)"
+   ],
+   "notes": null
+  },
+  "Slowatt": {
+   "regions": [
+    "Azure Woodland",
+    "Enchanted Firmament"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Shockingly Laid-Back Slowatt (Lv. 66) - Palpagos Islands (-367,-1357)"
+   ],
+   "egg_types": [
+    "Electric Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Electric Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": null
+  },
+  "Smokie": {
+   "regions": [
+    "Deserted Ash Plateau",
+    "Scorched Ashland",
+    "Scorched Hill",
+    "Frozen Coral Hill",
+    "The Oculus Gate, Tower in Sight",
+    "Loess Plains"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Jet-Black Little Hero Smokie (Lv. 60) - Palpagos Islands (-879,-1467)",
+    "Jet-Black Little Hero Smokie (Lv. 56-58) - Feybreak Cavern",
+    "Jet-Black Little Hero Smokie (Lv. 55) - yamijima_rock_BOSS_B"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Feybreak Cavern (Lv. 50-54)",
+    "dungeon: Feybreak Cavern (Lv. 50-55)",
+    "dungeon loot egg (Dark Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-40)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)",
+    "incident/outbreak events (Lv. 54-57)"
+   ],
+   "notes": null
+  },
+  "Smokie Cryst": {
+   "regions": [
+    "Glacial Memento Islet"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Snock": {
+   "regions": [
+    "Enchanted Firmament",
+    "Farcry Marsh",
+    "Azure Woodland",
+    "Sunreach Skies [Lv. 63-64]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Sluggish Blue Bolt Snock (Lv. 65) - Palpagos Islands (-369,-1414)",
+    "Sluggish Blue Bolt Snock (Lv. 65-69) - Sunreach Skies"
+   ],
+   "egg_types": [
+    "Electric Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Electric Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": null
+  },
+  "Snock Lux": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 74-76]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Electric Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Snugloo": {
+   "regions": [
+    "Frostbound Mountains"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Frozen Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Solenne": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 76-78]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Solmora": {
+   "regions": [
+    "Waterlily Gorge",
+    "Farcry Marsh",
+    "Enchanted Firmament",
+    "Crystalline Archipelago",
+    "Azure Woodland"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "fishing (Lv. 36-48)"
+   ],
+   "notes": null
+  },
+  "Solmora Lux": {
+   "regions": [
+    "Foot of the World Tree",
+    "Waterlily Gorge",
+    "Enchanted Firmament",
+    "Azure Woodland",
+    "Crystalline Archipelago",
+    "Farcry Marsh",
+    "The World Tree [Lv. 76-78]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Damp Egg"
+   ],
+   "other_sources": [
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "fishing (Lv. 36-48)"
+   ],
+   "notes": null
+  },
+  "Sootseer": {
+   "regions": [
+    "Frozen Coral Hill",
+    "Dancing Sakura Shrine",
+    "Sakurajima - Northern Rock Field",
+    "Sakurajima - Southern Sandbar",
+    "Sakurajima - Mushroom Wetlands",
+    "The Oculus Gate, Tower in Sight"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Flickering Flame Sootseer (Lv. 51-52) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "No. 2 Wildlife Sanctuary (Lv. 45-48)",
+    "dungeon loot egg (Large Dark Egg)",
+    "attacks bases during raids (catchable) (Lv. 29)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)"
+   ],
+   "notes": null
+  },
+  "Souffline": {
+   "regions": [
+    "Enchanted Firmament",
+    "Sunreach Skies [Lv. 65-69]",
+    "Sunreach Skies [Lv. 63-64]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Windborne Seedling Souffline (Lv. 65-69) - Sunreach Skies"
+   ],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [
+    "Pal Recruiter (recruitable wandering pal) (Lv. 65-70)"
+   ],
+   "notes": null
+  },
+  "Sparkit": {
+   "regions": [
+    "Golden Hills"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Electric Egg"
+   ],
+   "other_sources": [
+    "caged pal in enemy camps (free to recruit) (Lv. 1-10)"
+   ],
+   "notes": null
+  },
+  "Splatterina": {
+   "regions": [
+    "Scorched Hill",
+    "Stone Pillar Cave",
+    "Hidden Passage to the Oculus Gate",
+    "Deserted Ash Plateau",
+    "Emberstone Plateau",
+    "Scorched Ashland",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Crimson Butcher Splatterina (Lv. 58) - as dungeon end-boss",
+    "Crimson Butcher Splatterina (Lv. 56-58) - Feybreak Cavern",
+    "Crimson Butcher Splatterina (Lv. 65) - Palpagos Islands (-1079,-1455)"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Feybreak Cavern (Lv. 52-56)",
+    "dungeon loot egg (Dark Egg)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)",
+    "incident/outbreak events (Lv. 57)"
+   ],
+   "notes": null
+  },
+  "Starryon": {
+   "regions": [
+    "Loess Plains",
+    "Crystalized Ancient Tree",
+    "Emberstone Plateau",
+    "The Oculus Gate, Tower in Sight",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Midnight Blue Mane Starryon (Lv. 57) - as dungeon end-boss",
+    "Midnight Blue Mane Starryon (Lv. 56-58) - Feybreak Cavern",
+    "Midnight Blue Mane Starryon (Lv. 63) - Palpagos Islands (-893,-1293)"
+   ],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Feybreak Cavern (Lv. 50-54)",
+    "dungeon loot egg (Large Dark Egg)",
+    "attacks bases during raids (catchable) (Lv. 35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": "wild spawn (Lv. 42-44) exists but its area is not listed on the source (???)"
+  },
+  "Starryon Primo": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 74-76]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Common Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Surfent": {
+   "regions": [
+    "Verdant Brook",
+    "Scars of War",
+    "Frostbound Mountains",
+    "Desiccated Dunes",
+    "Oasis Isle",
+    "Marsh Island"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "The Ocean's Wrath Surfent (Lv. 17-19) - Ravine Grotto"
+   ],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon: Ravine Grotto (Lv. 14-17)",
+    "dungeon loot egg (Damp Egg)",
+    "fishing (Lv. 16-26)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Surfent Terra": {
+   "regions": [
+    "Desiccated Dunes",
+    "Deserted Ash Plateau",
+    "Isle of the Glacial Core",
+    "Oasis Isle",
+    "Scorched Ashland",
+    "No. 3 Wildlife Sanctuary"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "The Desert's Wrath Surfent Terra (Lv. 37-40) - Cavern of the Dunes"
+   ],
+   "egg_types": [
+    "Large Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Rocky Egg)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "fishing (Lv. 16-26)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)",
+    "incident/outbreak events (Lv. 18)"
+   ],
+   "notes": null
+  },
+  "Suzaku": {
+   "regions": [
+    "Desiccated Dunes",
+    "Frostbound Mountains",
+    "Scars of War",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Ruler of the Crimson Dawn Suzaku (Lv. 45) - Palpagos Islands (326,483)"
+   ],
+   "egg_types": [
+    "Huge Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Scorching Egg)",
+    "attacks bases during raids (catchable) (Lv. 16)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Suzaku Aqua": {
+   "regions": [
+    "Farcry Marsh",
+    "Crystalline Archipelago",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Ruler of the Cobalt Dusk Suzaku Aqua (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Huge Damp Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Swee": {
+   "regions": [
+    "Abandoned Ruins",
+    "Bamboo Groves",
+    "Twilight Dunes",
+    "Ancient Ritual Site",
+    "Foot of the Astral Mountains",
+    "Deep Bamboo Thicket"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon: Ravine Grotto (Lv. 14-17)",
+    "dungeon loot egg (Frozen Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-10)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 5)"
+   ],
+   "notes": null
+  },
+  "Sweepa": {
+   "regions": [
+    "Abandoned Ruins",
+    "Bamboo Groves",
+    "Twilight Dunes",
+    "Ancient Ritual Site",
+    "Foot of the Astral Mountains",
+    "Deep Bamboo Thicket"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "King of the Floof Sweepa (Lv. 11) - Palpagos Islands (-227,-593)",
+    "King of the Floof Sweepa (Lv. 17-19) - Ravine Grotto"
+   ],
+   "egg_types": [
+    "Large Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Frozen Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 8)"
+   ],
+   "notes": null
+  },
+  "Tanzee": {
+   "regions": [
+    "Sea Breeze Archipelago",
+    "Autumn Rocks",
+    "Isle of Silence",
+    "Golden Hills"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Dexterous Primate Tanzee (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Verdant Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 10-20)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Tanzee Ignis": {
+   "regions": [
+    "Autumn Rocks",
+    "Golden Hills"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Scorching Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Tarantriss": {
+   "regions": [
+    "Gobfin's Turf",
+    "Verdant Brook"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Tactician of the Thread Realm Tarantriss (Lv. 35) - Palpagos Islands (-343,-252)",
+    "Tactician of the Thread Realm Tarantriss (Lv. 57) - as dungeon end-boss",
+    "Tactician of the Thread Realm Tarantriss (Lv. 56-58) - Feybreak Cavern"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Mountain Stream Grotto (Lv. 20-23)",
+    "dungeon: Feybreak Cavern (Lv. 52-55)",
+    "dungeon: Feybreak Cavern (Lv. 50-55)",
+    "dungeon loot egg (Dark Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 20-30)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 57)"
+   ],
+   "notes": null
+  },
+  "Teafant": {
+   "regions": [
+    "Isle of Silence",
+    "Sea Breeze Archipelago",
+    "Marsh Island",
+    "Golden Hills",
+    "Eastern Wild Island",
+    "Flying Fish Coast"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Adorable Watering Can Teafant (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Damp Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 15-25)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Tetroise": {
+   "regions": [
+    "Desiccated Dunes",
+    "Isle of the Glacial Core",
+    "No. 3 Wildlife Sanctuary",
+    "Scars of War",
+    "Frostbound Mountains",
+    "Oasis Isle",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Sandsea Monolith Tetroise (Lv. 55) - Palpagos Islands (435,380)"
+   ],
+   "egg_types": [
+    "Huge Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Rocky Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)"
+   ],
+   "notes": null
+  },
+  "Tetroise Primo": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 76-78]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Sandsea Wardenstone Tetroise Primo (Lv. 60) - Palpagos Islands (-1082,-1320)"
+   ],
+   "egg_types": [
+    "Huge Common Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Common Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)"
+   ],
+   "notes": null
+  },
+  "Tocotoco": {
+   "regions": [
+    "Desiccated Dunes",
+    "Twilight Dunes",
+    "Sakurajima - Northern Rock Field",
+    "Sakurajima - Southern Sandbar",
+    "Isle of the Glacial Core",
+    "Scars of War"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Boom or Bust Tocotoco (Lv. 17-19) - Ravine Grotto",
+    "Boom or Bust Tocotoco (Lv. 37-40) - Cavern of the Dunes"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Ravine Grotto (Lv. 14-17)",
+    "dungeon: Cavern of the Dunes (Lv. 30-34)",
+    "dungeon: Cavern of the Dunes (Lv. 33-36)",
+    "dungeon loot egg (Common Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-35)",
+    "attacks bases during raids (catchable) (Lv. 10-16)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 11-43)"
+   ],
+   "notes": null
+  },
+  "Tombat": {
+   "regions": [
+    "Marsh Island",
+    "Golden Hills",
+    "Autumn Rocks",
+    "Fortress Ruins"
+   ],
+   "day_night": "night",
+   "alpha_locations": [
+    "Trickster Tombat (Lv. 15) - as dungeon end-boss",
+    "Trickster Tombat (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern",
+    "Trickster Tombat (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon: Astral Mountains Cavern (Lv. 38-42)",
+    "dungeon loot egg (Large Dark Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": "wild spawn (Lv. 36-38) exists but its area is not listed on the source (???)"
+  },
+  "Tropicaw": {
+   "regions": [
+    "Farcry Marsh",
+    "Crystalline Archipelago",
+    "Sunreach Skies [Lv. 63-64]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Blooming Crooner Tropicaw (Lv. 65-69) - Sunreach Skies"
+   ],
+   "egg_types": [
+    "Large Verdant Egg"
+   ],
+   "other_sources": [
+    "caged pal in enemy camps (free to recruit) (Lv. 65-69)",
+    "attacks bases during raids (catchable) (Lv. 10)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 65-70)"
+   ],
+   "notes": null
+  },
+  "Turtacle": {
+   "regions": [
+    "Sea Breeze Archipelago",
+    "Flying Fish Coast",
+    "Marsh Island",
+    "Golden Hills",
+    "Ancient Ritual Site",
+    "Twilight Dunes"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Mini Fortress Turtacle (Lv. 27-29) - Mountain Stream Grotto"
+   ],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon: Mountain Stream Grotto (Lv. 22-25)",
+    "dungeon: Hillside Cavern, Ravine Grotto (Lv. 5-10)",
+    "dungeon loot egg (Damp Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 45-50)",
+    "fishing (Lv. 11-18)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Turtacle Terra": {
+   "regions": [
+    "Oasis Isle",
+    "Scars of War",
+    "Isle of the Glacial Core",
+    "Frostbound Mountains",
+    "No. 3 Wildlife Sanctuary",
+    "Flamepulse Islet"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Damp Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Damp Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 60-65)",
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "fishing (Lv. 36-48)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)"
+   ],
+   "notes": null
+  },
+  "Univolt": {
+   "regions": [
+    "Bamboo Groves",
+    "Deep Bamboo Thicket",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Swift Deity Univolt (Lv. 31) - Palpagos Islands (-117,-543)",
+    "Swift Deity Univolt (Lv. 17-19) - Ravine Grotto"
+   ],
+   "egg_types": [
+    "Large Electric Egg"
+   ],
+   "other_sources": [
+    "dungeon: Ravine Grotto (Lv. 14-17)",
+    "dungeon loot egg (Large Electric Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 17)"
+   ],
+   "notes": null
+  },
+  "Univolt Cryst": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 75-77]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Frozen Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Vaelet": {
+   "regions": [
+    "Flying Fish Coast",
+    "Dancing Sakura Shrine",
+    "Sakurajima - Northern Rock Field"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Voice of the Violets Vaelet (Lv. 27) - Palpagos Islands (-19,-265)"
+   ],
+   "egg_types": [
+    "Huge Verdant Egg"
+   ],
+   "other_sources": [
+    "No. 1 Wildlife Sanctuary (Lv. 20-23)",
+    "dungeon loot egg (Huge Verdant Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Valentail": {
+   "regions": [
+    "Enchanted Firmament",
+    "Farcry Marsh",
+    "Azure Woodland",
+    "Sunreach Skies [Lv. 63-64]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Plays Both Sides Valentail (Lv. 65-69) - Sunreach Skies"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "attacks bases during raids (catchable) (Lv. 13)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 65-70)"
+   ],
+   "notes": null
+  },
+  "Vanwyrm": {
+   "regions": [
+    "Scorched Ashland",
+    "Withered Seaside",
+    "Deserted Ash Plateau",
+    "Dry Sandy Beach",
+    "Scorched Hill",
+    "Bamboo Groves"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Aerial Marauder Vanwyrm (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon: Volcanic Cavern (Lv. 32-35)",
+    "dungeon loot egg (Large Scorching Egg)",
+    "attacks bases during raids (catchable) (Lv. 13-29)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 33-40)"
+   ],
+   "notes": null
+  },
+  "Vanwyrm Cryst": {
+   "regions": [
+    "Frozen Coral Hill",
+    "The Oculus Gate, Tower in Sight",
+    "No. 1 Wildlife Sanctuary",
+    "Astral Mountains",
+    "Frostbound Mountains",
+    "Abandoned Ruins"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Marauder of Frozen Skies Vanwyrm Cryst (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Large Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Frozen Egg)",
+    "attacks bases during raids (catchable) (Lv. 29-36)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 40)"
+   ],
+   "notes": null
+  },
+  "Venusa": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 75-77]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Verdash": {
+   "regions": [
+    "Dancing Sakura Shrine",
+    "Sakurajima - Southern Sandbar",
+    "Sakurajima - Northern Rock Field",
+    "Sakurajima - Mushroom Wetlands"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Gale of the Forest Verdash (Lv. 35) - Palpagos Islands (285,10)"
+   ],
+   "egg_types": [
+    "Huge Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Verdant Egg)",
+    "attacks bases during raids (catchable) (Lv. 29)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Vixy": {
+   "regions": [
+    "Sea Breeze Archipelago",
+    "Fortress Ruins",
+    "Windswept Island",
+    "Autumn Rocks"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Star of the Steppe Vixy (Lv. 10-13) - Hillside Cavern, Isolated Island Cavern"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Hillside Cavern, Isolated Island Cavern (Lv. 6-9)",
+    "dungeon loot egg (Common Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 1-25)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Warsect": {
+   "regions": [
+    "Verdant Brook",
+    "Gobfin's Turf",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Rocky Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)",
+    "incident/outbreak events (Lv. 54)"
+   ],
+   "notes": null
+  },
+  "Warsect Terra": {
+   "regions": [
+    "Loess Plains",
+    "Crystalized Ancient Tree",
+    "Emberstone Plateau",
+    "Hidden Passage to the Oculus Gate"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Gold-Armored Warrior Warsect Terra (Lv. 59) - as dungeon end-boss",
+    "Gold-Armored Warrior Warsect Terra (Lv. 56-58) - Feybreak Cavern",
+    "Gold-Armored Warrior Warsect Terra (Lv. 64) - Palpagos Islands (-1019,-1236)"
+   ],
+   "egg_types": [
+    "Huge Rocky Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Rocky Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-40)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 60-70)",
+    "incident/outbreak events (Lv. 54)"
+   ],
+   "notes": null
+  },
+  "Whalaska": {
+   "regions": [
+    "Feybreak Shipwreck",
+    "Frozen Coral Hill",
+    "Isle of the Glacial Core",
+    "Sunlit Isle",
+    "Bicornis Islet",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Gentle Ice Lance Whalaska (Lv. 55) - Palpagos Islands (-179,842)"
+   ],
+   "egg_types": [
+    "Huge Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon: Astral Mountains Cavern (Lv. 42-44)",
+    "fishing (Lv. 36-48)"
+   ],
+   "notes": null
+  },
+  "Whalaska Ignis": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 71-73]",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Gentle Crimson Lance Whalaska Ignis (Lv. 58) - as dungeon end-boss",
+    "Gentle Crimson Lance Whalaska Ignis (Lv. 74) - The World Tree (49,783)"
+   ],
+   "egg_types": [
+    "Huge Frozen Egg"
+   ],
+   "other_sources": [
+    "fishing (Lv. 36-48)"
+   ],
+   "notes": null
+  },
+  "Wispaw": {
+   "regions": [
+    "Marsh Island",
+    "Golden Hills",
+    "Foot of the World Tree",
+    "Autumn Rocks",
+    "Fortress Ruins",
+    "The World Tree [Lv. 71-73]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Dark Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)"
+   ],
+   "notes": null
+  },
+  "Wistella": {
+   "regions": [
+    "Foot of the World Tree",
+    "The World Tree [Lv. 76-78]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Mantle of the Night Sky Wistella (Lv. 66) - Palpagos Islands (-232,-1415)"
+   ],
+   "egg_types": [
+    "Dark Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Wixen": {
+   "regions": [
+    "Ruined Fortress City",
+    "Scars of War",
+    "Foot of the Volcano",
+    "Isle of Eternal Summer",
+    "Sea Breeze Archipelago"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Fire-Licked Furball Wixen (Lv. 28) - Palpagos Islands (161,-223)",
+    "Fire-Licked Furball Wixen (Lv. 36-38) - Volcanic Cavern"
+   ],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Scorching Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 20-30)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 30-70)"
+   ],
+   "notes": null
+  },
+  "Wixen Noct": {
+   "regions": [
+    "Sakurajima - Southern Sandbar",
+    "Sakurajima - Northern Rock Field",
+    "Dancing Sakura Shrine",
+    "No. 2 Wildlife Sanctuary",
+    "Sakurajima - Mushroom Wetlands"
+   ],
+   "day_night": "night",
+   "alpha_locations": [
+    "Phantasmal Furball Wixen Noct (Lv. 51-52) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Large Scorching Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cherry Blossom Cave (Lv. 46-50)",
+    "dungeon loot egg (Large Scorching Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-35)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)"
+   ],
+   "notes": null
+  },
+  "Woolipop": {
+   "regions": [
+    "Sea Breeze Archipelago",
+    "Golden Hills",
+    "Bamboo Groves",
+    "Foot of the Volcano",
+    "Ancient Ritual Site"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Giant Cotton Candy Woolipop (Lv. 17-19) - Ravine Grotto"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Ravine Grotto (Lv. 14-17)",
+    "dungeon loot egg (Common Egg)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 15-70)",
+    "incident/outbreak events (Lv. 35)"
+   ],
+   "notes": null
+  },
+  "Woolipop Terra": {
+   "regions": [
+    "Suncrest Islet"
+   ],
+   "day_night": "both",
+   "alpha_locations": [],
+   "egg_types": [
+    "Rocky Egg"
+   ],
+   "other_sources": [],
+   "notes": null
+  },
+  "Wumpo": {
+   "regions": [
+    "Astral Mountains",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Guardian of the Snowy Fields Wumpo (Lv. 42-45) - Astral Mountains Cavern"
+   ],
+   "egg_types": [
+    "Large Frozen Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Large Frozen Egg)",
+    "attacks bases during raids (catchable) (Lv. 23)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 40-70)",
+    "incident/outbreak events (Lv. 40-43)"
+   ],
+   "notes": null
+  },
+  "Wumpo Botan": {
+   "regions": [
+    "Dancing Sakura Shrine",
+    "Sakurajima - Southern Sandbar",
+    "Sakurajima - Northern Rock Field",
+    "Sakurajima - Mushroom Wetlands",
+    "The World Tree [Lv. 80]"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Guardian of the Grassy Fields Wumpo Botan (Lv. 38) - Palpagos Islands (449,-51)"
+   ],
+   "egg_types": [
+    "Huge Verdant Egg"
+   ],
+   "other_sources": [
+    "dungeon loot egg (Huge Verdant Egg)",
+    "attacks bases during raids (catchable) (Lv. 42)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)",
+    "incident/outbreak events (Lv. 43)"
+   ],
+   "notes": null
+  },
+  "Xenogard": {
+   "regions": [],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Dragon Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn",
+    "attacks bases during raids (catchable) (Lv. 23)",
+    "breeding: same-species pair only (breeds true, no cross-combo produces it)"
+   ],
+   "notes": null
+  },
+  "Xenolord": {
+   "regions": [],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Huge Dark Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn",
+    "raid-boss reward: Invader from Space Xenolord drops its Huge Dark Egg (90%)",
+    "raid-boss reward: Invader from Space (Ultra) Xenolord drops its Huge Dark Egg (90%)",
+    "breeding: same-species pair only (breeds true, no cross-combo produces it)"
+   ],
+   "notes": null
+  },
+  "Xenovader": {
+   "regions": [],
+   "day_night": null,
+   "alpha_locations": [],
+   "egg_types": [
+    "Large Dark Egg"
+   ],
+   "other_sources": [
+    "no regular wild spawn",
+    "caged pal in enemy camps (free to recruit) (Lv. 25-30)",
+    "attacks bases during raids (catchable) (Lv. 23)",
+    "enemy camps (Lv. 45)",
+    "breeding: same-species pair only (breeds true, no cross-combo produces it)"
+   ],
+   "notes": null
+  },
+  "Yakumo": {
+   "regions": [
+    "Dancing Sakura Shrine",
+    "Sakurajima - Northern Rock Field"
+   ],
+   "day_night": "both",
+   "alpha_locations": [
+    "Unwavering Loyalty Yakumo (Lv. 47-49) - Cherry Blossom Cave"
+   ],
+   "egg_types": [
+    "Common Egg"
+   ],
+   "other_sources": [
+    "dungeon: Cherry Blossom Cave (Lv. 40-45)",
+    "dungeon loot egg (Common Egg)",
+    "caged pal in enemy camps (free to recruit) (Lv. 30-65)",
+    "attacks bases during raids (catchable) (Lv. 29)",
+    "Pal Recruiter (recruitable wandering pal) (Lv. 50-70)",
+    "incident/outbreak events (Lv. 50)"
+   ],
+   "notes": null
+  }
+ },
+ "notes": [
+  "regions are derived from the in-game Paldex habitat point data (paldb.cc DT_PaldexDistributionData.json): each habitat point is assigned to the nearest named map region label from paldb.cc map data, so region lists are a close approximation of the in-game habitat map, ordered by share of spawn points.",
+  "day_night comes from the pal's day/night habitat point counts on paldb.cc ('both' = points in both overlays).",
+  "alpha_locations coordinates are in-game map coordinates (X, Y) on the named map (Palpagos Islands or The World Tree); 'as dungeon end-boss' means the alpha also appears as a boss at the end of randomized dungeons.",
+  "other_sources are decoded from paldb.cc spawner-table entries (dungeons, caged pals in enemy camps, Pal Recruiter, fishing, base-raid attackers, incident/outbreak events, wildlife sanctuaries, raid-boss reward eggs).",
+  "egg_types is the egg family the pal can hatch from (the game also uses Large/Huge size variants of the same family)."
+ ],
+ "gaps": [
+  "Astralym: not obtainable in 1.0 (story boss only); no location/egg data applies",
+  "23 pals have no wild-spawn regions (legendary alpha-only, raid-boss-only, or dungeon/special encounters) - each states how to obtain it in other_sources",
+  "day_night is null for 25 pals that have no in-game paldex habitat overlay (mostly the no-wild-spawn pals above)",
+  "region names are nearest-label approximations of the in-game habitat map (see notes); exact spawn sub-areas and spawn rates are not captured",
+  "merchant availability (Pal Merchants / Black Marketeer stock) is not covered by the sources used"
+ ],
+ "sources": [
+  {
+   "url": "https://paldb.cc/en/<PalName> (299 per-pal pages)",
+   "what": "Spawner tables (wild/alpha/dungeon/raid spawn entries with levels and map coordinates), hatchable egg type, day/night habitat point counts",
+   "fetched": "2026-07-14"
+  },
+  {
+   "url": "https://paldb.cc/DataTable/UI/DT_PaldexDistributionData.json",
+   "what": "in-game Paldex habitat spawn-point coordinates per pal (day/night), reduced to nearest-region tallies in data/raw/paldex_region_tallies.json",
+   "fetched": "2026-07-14"
+  },
+  {
+   "url": "https://paldb.cc/js/map_data_en.js",
+   "what": "named map region labels with in-game coordinates (regionData), used to turn habitat points into region names; saved to data/raw/paldb_region_labels.json",
+   "fetched": "2026-07-14"
+  },
+  {
+   "url": "https://paldb.cc/en/Pals",
+   "what": "internal codename -> English pal name mapping (data/raw/paldb_codename_map.json)",
+   "fetched": "2026-07-14"
+  },
+  {
+   "url": "https://game8.co/games/Palworld/archives/609977",
+   "what": "Astralym is the story final boss and cannot be caught/owned in 1.0 (via web search summary)",
+   "fetched": "2026-07-14"
+  },
+  {
+   "url": "https://www.bisecthosting.com/blog/palworld-terraria-dungeon-guide-location-walkthrough-new-pals-eye-of-cthulhu-boss",
+   "what": "Terraria-collab pals spawn in the Terraria dungeon on the Sealed Realm of Terraria island SE of Fisherman's Point; Eye of Cthulhu alpha at (-422, -795) (via web search summary, with game8.co)",
+   "fetched": "2026-07-14"
+  }
+ ]
+}

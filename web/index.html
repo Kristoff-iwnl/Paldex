@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paldex</title>
+<!-- Provided by Qt inside the app. Without it the page runs in "preview" mode. -->
+<script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+<script src="landmask.js"></script>
+<style>
+/* ---------- theme: --accent and --accent2 change with the Pal's element ---------- */
+@property --accent{syntax:'<color>';inherits:true;initial-value:#00e0ff}
+@property --accent2{syntax:'<color>';inherits:true;initial-value:#6d28d9}
+:root{--text:#f5f5f7;--muted:#8a8a93;--line:rgba(255,255,255,.12);--glass:rgba(255,255,255,.055);
+  color-scheme:dark;transition:--accent .7s,--accent2 .7s}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;background:#000}
+body{color:var(--text);font:14px/1.5 "Segoe UI",system-ui,Arial,sans-serif;min-height:100vh;overflow-x:hidden}
+::-webkit-scrollbar{width:9px}::-webkit-scrollbar-track{background:#070709}
+::-webkit-scrollbar-thumb{background:#2a2a2e;border-radius:5px}::-webkit-scrollbar-thumb:hover{background:var(--accent)}
+
+/* ---------- living background ---------- */
+.bg{position:fixed;inset:0;z-index:-1;overflow:hidden;background:#000}
+.blob{position:absolute;width:48vmax;height:48vmax;border-radius:50%;filter:blur(90px);opacity:.4}
+.b1{background:var(--accent);top:-14vmax;left:-10vmax;animation:d1 22s ease-in-out infinite alternate}
+.b2{background:var(--accent2);bottom:-16vmax;right:-12vmax;animation:d2 26s ease-in-out infinite alternate}
+.b3{background:var(--accent);width:30vmax;height:30vmax;top:35%;left:55%;opacity:.2;animation:d3 30s ease-in-out infinite alternate}
+@keyframes d1{to{transform:translate(18vmax,12vmax) scale(1.15)}}
+@keyframes d2{to{transform:translate(-16vmax,-10vmax) scale(1.1)}}
+@keyframes d3{to{transform:translate(-22vmax,8vmax) scale(.85)}}
+
+.wrap{max-width:880px;margin:0 auto;padding:24px 18px 60px}
+header{text-align:center;margin-bottom:18px}
+h1{margin:0;font-size:30px;letter-spacing:.14em;color:var(--accent);text-shadow:0 0 30px var(--accent)}
+.sub{color:var(--muted);font-size:12px;margin-top:4px}
+
+/* ---------- glass ---------- */
+.glass{position:relative;background:var(--glass);border:1px solid var(--line);border-radius:16px;
+  backdrop-filter:blur(20px) saturate(140%);
+  box-shadow:0 10px 40px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.16);
+  transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+.glass::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+  background:linear-gradient(135deg,rgba(255,255,255,.13),transparent 38%)}
+.card{padding:16px 18px}
+.card:hover{transform:translateY(-3px);border-color:color-mix(in srgb,var(--accent) 55%,transparent);
+  box-shadow:0 14px 44px rgba(0,0,0,.5),0 0 28px color-mix(in srgb,var(--accent) 22%,transparent),inset 0 1px 0 rgba(255,255,255,.2)}
+.searchcard{z-index:20}
+.searchcard:hover{transform:none}
+.card h3{margin:0 0 10px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.muted{color:var(--muted)}
+
+/* ---------- search ---------- */
+.search{position:relative;display:flex;gap:10px;flex-wrap:wrap}
+.field{position:relative;flex:1 1 260px}
+input{width:100%;padding:12px 16px;border-radius:12px;border:1px solid var(--line);background:rgba(0,0,0,.45);color:var(--text);font:inherit;outline:none;transition:border-color .2s,box-shadow .2s}
+input:focus{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 28%,transparent)}
+input::placeholder{color:var(--muted)}
+kbd{position:absolute;right:12px;top:50%;transform:translateY(-50%);font:11px monospace;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:1px 7px;pointer-events:none}
+.btn{padding:12px 18px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.07);color:var(--text);font:600 14px "Segoe UI",system-ui,Arial,sans-serif;cursor:pointer;transition:transform .15s,background .2s,border-color .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);background:rgba(255,255,255,.12)}
+.btn.primary{background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 100%,#fff 25%),var(--accent));color:#000;border-color:var(--accent);box-shadow:0 0 22px color-mix(in srgb,var(--accent) 45%,transparent)}
+.btn.map{border-color:var(--accent);color:var(--accent);background:rgba(0,0,0,.4)}
+.btn:disabled{opacity:.4;pointer-events:none}
+.sugg{position:absolute;left:0;right:0;top:calc(100% + 6px);z-index:30;list-style:none;margin:0;padding:6px;border-radius:12px;display:none;max-height:288px;overflow-y:auto;
+  background:rgba(12,12,16,.88);border:1px solid var(--line);backdrop-filter:blur(20px)}
+.sugg li{padding:8px 12px;border-radius:8px;cursor:pointer}
+.sugg li:hover,.sugg li.on{background:color-mix(in srgb,var(--accent) 22%,transparent)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:12px}
+.chips:empty{display:none}
+.chips .lbl{color:var(--muted);font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+.chip{padding:4px 12px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);font:inherit;font-size:12px;cursor:pointer;transition:border-color .2s,background .2s}
+.chip:hover{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 16%,transparent)}
+
+/* ---------- profile ---------- */
+#view{margin-top:18px}
+.profile{display:grid;grid-template-columns:200px 1fr;gap:20px;padding:18px}
+.portrait{width:200px;height:200px;border-radius:16px;display:grid;place-items:center;position:relative;overflow:hidden;border:1px solid var(--line);
+  background:radial-gradient(circle at 50% 42%,color-mix(in srgb,var(--accent) 38%,transparent),transparent 70%),rgba(0,0,0,.35)}
+.portrait img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 0 18px color-mix(in srgb,var(--accent) 55%,transparent));animation:float 4s ease-in-out infinite}
+.portrait .ph{font-size:13px;color:var(--muted)}
+@keyframes float{50%{transform:translateY(-5px)}}
+.head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.head h2{margin:0;font-size:26px}
+.num{color:var(--accent);font-weight:700;letter-spacing:.06em}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.tag{padding:3px 10px;border-radius:8px;border:1px solid var(--line);background:rgba(255,255,255,.05);font-size:12px;color:#d6d6dc}
+.tag.rare{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 60%,transparent)}
+.star{background:none;border:1px solid var(--line);color:var(--muted);width:38px;height:38px;border-radius:50%;font-size:18px;cursor:pointer;transition:all .2s;flex:none}
+.star:hover{border-color:var(--accent);color:var(--accent)}
+.star.on{color:#ffd21f;border-color:#ffd21f;text-shadow:0 0 12px #ffd21f}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+.full{grid-column:1/-1}
+.badge{display:inline-block;margin:0 6px 6px 0;padding:3px 12px;border-radius:999px;font-weight:600;font-size:12px;color:var(--c);border:1px solid var(--c);background:color-mix(in srgb,var(--c) 18%,transparent)}
+.skill b{display:block;color:#fff;margin-bottom:2px}
+.work{display:flex;justify-content:space-between;align-items:center;padding:3px 0;gap:10px}
+.pips{display:flex;gap:4px;flex:none}
+.pip{width:16px;height:6px;border-radius:3px;background:rgba(255,255,255,.13)}
+.pip.on{background:var(--accent);box-shadow:0 0 8px var(--accent)}
+.stat{display:grid;grid-template-columns:110px 1fr 44px;align-items:center;gap:12px;padding:3px 0}
+.track{height:8px;border-radius:4px;background:rgba(255,255,255,.1);overflow:hidden}
+.fill{height:100%;width:0;border-radius:4px;background:linear-gradient(90deg,var(--accent2),var(--accent));box-shadow:0 0 10px var(--accent);transition:width .9s cubic-bezier(.2,.8,.2,1)}
+.stat span:last-child{text-align:right;font-variant-numeric:tabular-nums;color:#fff;font-weight:600}
+.drops{display:flex;gap:10px;flex-wrap:wrap}
+.drop{display:flex;flex-direction:column;align-items:center;gap:6px;width:92px;padding:10px 6px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.05);text-align:center;font-size:11px;font-weight:600;transition:transform .2s,border-color .2s}
+.drop:hover{transform:translateY(-3px);border-color:var(--accent)}
+.drop img{width:44px;height:44px;object-fit:contain}
+.drop i{font-style:normal;width:44px;height:44px;border-radius:10px;display:grid;place-items:center;font-weight:700;font-size:18px;color:#000;background:var(--accent)}
+.lines div{padding:1px 0}
+.empty{text-align:center;padding:48px 20px;color:var(--muted)}
+.empty b{display:block;color:var(--text);font-size:20px;margin-bottom:6px}
+
+/* ---------- habitat map ---------- */
+.spots{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.mapview{position:relative;height:clamp(320px,58vh,560px);border-radius:12px;overflow:hidden;border:1px solid var(--line);background:#0d151b;touch-action:none;cursor:grab}
+.mapview.drag{cursor:grabbing}
+.stage{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform;user-select:none}
+.stage img{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;-webkit-user-drag:none}
+.stage[data-layer="world"] .layer-tree,.stage[data-layer="world"] .pin.tree,.stage[data-layer="tree"] .layer-world,.stage[data-layer="tree"] .pin.world{display:none}
+.pin{position:absolute;width:0;height:0;transform:scale(calc(1 / var(--k,1)))}
+.pin .dot{position:absolute;left:-7px;top:-7px;width:14px;height:14px;border-radius:50%;background:var(--accent);border:2px solid #fff;box-shadow:0 0 14px var(--accent)}
+.pin .dot::after{content:"";position:absolute;inset:-9px;border-radius:50%;border:2px solid var(--accent);animation:ping 2s ease-out infinite}
+@keyframes ping{from{transform:scale(.4);opacity:.9}to{transform:scale(1.5);opacity:0}}
+.pin .label{position:absolute;left:12px;top:-26px;white-space:nowrap;padding:3px 9px;border-radius:8px;font-size:12px;font-weight:600;background:rgba(0,0,0,.78);border:1px solid var(--accent);display:none;pointer-events:none}
+.pin:hover .label,.pin.active .label{display:block}
+.pin.off .dot{background:rgba(0,0,0,.55);border:2px dashed var(--accent);box-shadow:none}
+.pin.off .dot::after{display:none}
+.pin.debug .dot{width:8px;height:8px;left:-4px;top:-4px;background:#9aa0a6;border:1px solid #000;box-shadow:none}
+.pin.debug .dot::after{display:none}
+.pin.debug:hover .label{display:block;border-color:#9aa0a6}
+.mapctl{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:6px;z-index:5}
+.mapctl button{width:34px;height:34px;border-radius:10px;border:1px solid var(--line);background:rgba(0,0,0,.6);color:#fff;font-size:16px;cursor:pointer;backdrop-filter:blur(8px)}
+.mapctl button:hover{border-color:var(--accent);color:var(--accent)}
+.note{font-size:11px;color:var(--muted);margin-top:8px}
+.chip.off{border-style:dashed}
+.chip.on{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 22%,transparent);color:#fff}
+
+/* ---------- motion: staggered reveal + loading shimmer ---------- */
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .45s ease,transform .45s ease,border-color .25s,box-shadow .25s}
+.reveal.show{opacity:1;transform:none}
+.skel{height:84px}.skel.tall{height:230px}
+.loading .glass{overflow:hidden}
+.loading .glass::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 20%,rgba(255,255,255,.12) 50%,transparent 80%);background-size:200% 100%;animation:sh 1s linear infinite}
+@keyframes sh{from{background-position:200% 0}to{background-position:-200% 0}}
+@media(max-width:640px){.profile{grid-template-columns:1fr}.portrait{margin:auto}.grid{grid-template-columns:1fr}.stat{grid-template-columns:90px 1fr 40px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="bg"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
+<div class="wrap">
+  <header><h1>PALDEX</h1><div class="sub">A companion guide for your Palworld adventures</div></header>
+
+  <div class="glass card searchcard" style="padding:16px">
+    <div class="search">
+      <div class="field">
+        <input id="q" type="text" placeholder="Search a Pal, for example Chillet Ignis" autocomplete="off" aria-label="Search a Pal">
+        <kbd>/</kbd>
+        <ul class="sugg" id="sugg"></ul>
+      </div>
+      <button class="btn primary" id="go">Search</button>
+      <button class="btn map" id="paldb" disabled>Open PalDB Map</button>
+      <button class="btn" id="clear">Clear</button>
+    </div>
+    <div class="chips" id="recents"></div>
+    <div class="chips" id="favs"></div>
+  </div>
+
+  <div id="view"></div>
+</div>
+
+<script>
+// ================= helpers =================
+const COLORS = {Neutral:["#e5e7eb","#94a3b8"],Fire:["#ff6a3d","#ffb020"],Water:["#3d9bff","#22d3ee"],Ice:["#7de3f4","#a5b4fc"],Grass:["#6bd13c","#c8f542"],Electric:["#ffd21f","#ff9f1c"],Ground:["#c08a4b","#e5b567"],Dark:["#8b5cf6","#c084fc"],Dragon:["#e0457b","#fb923c"]};
+const DEFAULT_THEME = ["#00e0ff","#6d28d9"];
+const $ = id => document.getElementById(id);
+const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const root = document.documentElement;
+
+let bridge = null;          // the Python side (set once QWebChannel connects)
+let names = [];             // every Pal name, for suggestions
+let recents = [], favs = [];
+let token = 0;              // lets us ignore out-of-date search results
+let sel = -1;
+
+// Ask Python for something and wait for its answer.
+const ask = (method, ...args) => new Promise(resolve => bridge[method](...args, resolve));
+
+function setTheme(pair){ root.style.setProperty("--accent", pair[0]); root.style.setProperty("--accent2", pair[1]); }
+function savePrefs(){ if (bridge) bridge.savePrefs(JSON.stringify({recents, favs})); }
+
+// ================= suggestions =================
+const q = $("q"), sugg = $("sugg");
+function showSugg(){
+  const t = q.value.trim().toLowerCase(); sugg.replaceChildren(); sel = -1;
+  const list = names.filter(n => !t || n.toLowerCase().includes(t)).slice(0, 40);
+  if (!list.length) { sugg.style.display = "none"; return; }
+  list.forEach(n => { const li = el("li", "", n); li.addEventListener("mousedown", e => { e.preventDefault(); pick(n); }); sugg.appendChild(li); });
+  sugg.style.display = "block";
+}
+function pick(name){ q.value = name; sugg.style.display = "none"; search(); }
+q.addEventListener("input", showSugg);
+q.addEventListener("focus", showSugg);
+q.addEventListener("blur", () => setTimeout(() => sugg.style.display = "none", 120));
+q.addEventListener("keydown", e => {
+  const items = [...sugg.children];
+  if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+    e.preventDefault(); if (!items.length) return;
+    sel = (sel + (e.key === "ArrowDown" ? 1 : -1) + items.length) % items.length;
+    items.forEach((li, i) => li.classList.toggle("on", i === sel));
+    items[sel].scrollIntoView({block: "nearest"});
+  } else if (e.key === "Enter") {
+    e.preventDefault(); if (sel >= 0 && items[sel]) pick(items[sel].textContent); else search();
+  } else if (e.key === "Escape") { sugg.style.display = "none"; q.blur(); }
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "/" && document.activeElement !== q) { e.preventDefault(); q.focus(); q.select(); }
+});
+
+// ================= recent searches + favourites =================
+function renderChips(box, label, list){
+  box.replaceChildren(); if (!list.length) return;
+  box.appendChild(el("span", "lbl", label));
+  list.forEach(n => { const b = el("button", "chip", n); b.addEventListener("click", () => pick(n)); box.appendChild(b); });
+}
+function refreshChips(){ renderChips($("recents"), "Recent", recents); renderChips($("favs"), "★ Favourites", favs); }
+
+// ================= search =================
+function resolveName(text){
+  const t = text.trim().toLowerCase(); if (!t) return null;
+  return names.find(n => n.toLowerCase() === t) || names.find(n => n.toLowerCase().startsWith(t)) || names.find(n => n.toLowerCase().includes(t)) || null;
+}
+async function search(){
+  if (!bridge) return;
+  const typed = q.value.trim();
+  if (!typed) { showEmpty("Please enter a Pal name.", "Search for a Pal to view its details."); return; }
+  const name = resolveName(typed);
+  if (!name) { showEmpty("Pal not found", "Check the spelling and try again."); return; }
+  const mine = ++token;
+  showSkeleton();
+  const started = performance.now();
+  const payload = JSON.parse(await ask("getPal", name));
+  // keep the shimmer visible for a moment so the transition feels smooth
+  const wait = reduced ? 0 : Math.max(0, 350 - (performance.now() - started));
+  await new Promise(r => setTimeout(r, wait));
+  if (mine !== token) return;                      // a newer search replaced this one
+  if (!payload) { showEmpty("Pal not found", "Check the spelling and try again."); return; }
+  recents = [payload.name, ...recents.filter(n => n !== payload.name)].slice(0, 5);
+  savePrefs(); refreshChips();
+  setTheme(COLORS[payload.elements[0]] || DEFAULT_THEME);
+  $("paldb").disabled = false;
+  buildView(payload);
+  reveal();
+}
+function reveal(){
+  const items = [...document.querySelectorAll("#view .reveal")];
+  items.forEach((n, i) => { n.style.transitionDelay = (i * 70) + "ms"; });
+  void document.body.offsetWidth;
+  items.forEach(n => n.classList.add("show"));
+  document.querySelectorAll("#view .fill").forEach(f => { f.style.width = f.dataset.w + "%"; });
+  document.querySelectorAll("#view [data-map]").forEach(n => n._startMap && n._startMap());
+}
+function showEmpty(title, text){
+  token++;
+  const v = $("view"); v.replaceChildren(); v.classList.remove("loading");
+  const c = el("div", "glass empty"); c.appendChild(el("b", "", title)); c.appendChild(el("span", "", text)); v.appendChild(c);
+}
+function showSkeleton(){
+  const v = $("view"); v.replaceChildren(); v.classList.add("loading");
+  [["tall"], [], [], []].forEach(c => v.appendChild(el("div", "glass skel " + c.join(" "))));
+  v.lastChild.style.marginTop = "0";
+}
+
+// ================= building the result =================
+function section(title, cls){ const c = el("div", "glass card reveal" + (cls ? " " + cls : "")); c.appendChild(el("h3", "", title)); return c; }
+function lines(list, emptyText){
+  const box = el("div", "lines");
+  if (!list.length) { box.className = "muted"; box.textContent = emptyText; return box; }
+  list.forEach(t => box.appendChild(el("div", "", t)));
+  return box;
+}
+
+function buildView(p){
+  const v = $("view"); v.replaceChildren(); v.classList.remove("loading");
+
+  // --- profile card ---
+  const prof = el("div", "glass profile reveal");
+  const portrait = el("div", "portrait");
+  if (p.image) { const img = el("img"); img.src = p.image; img.alt = p.name; portrait.appendChild(img); }
+  else portrait.appendChild(el("span", "ph", "Image unavailable"));
+  const info = el("div"), head = el("div", "head"), titles = el("div");
+  const h2 = el("h2", "", p.name);
+  titles.appendChild(h2);
+  if (p.number) titles.appendChild(el("div", "num", "#" + p.number));
+  const star = el("button", "star" + (favs.includes(p.name) ? " on" : ""), favs.includes(p.name) ? "★" : "☆");
+  star.title = "Favourite"; star.setAttribute("aria-label", "Toggle favourite");
+  star.addEventListener("click", () => {
+    favs = favs.includes(p.name) ? favs.filter(n => n !== p.name) : [p.name, ...favs];
+    savePrefs(); refreshChips();
+    const on = favs.includes(p.name); star.classList.toggle("on", on); star.textContent = on ? "★" : "☆";
+  });
+  head.append(titles, star);
+  const tags = el("div", "tags");
+  if (p.rarity) tags.appendChild(el("span", "tag rare", p.rarity));
+  if (p.size) tags.appendChild(el("span", "tag", "Size " + p.size));
+  if (p.mount) tags.appendChild(el("span", "tag", "Mount: " + p.mount));
+  if (p.nocturnal) tags.appendChild(el("span", "tag", "Nocturnal"));
+  info.append(head, tags);
+  prof.append(portrait, info);
+  v.appendChild(prof);
+
+  const grid = el("div", "grid"); v.appendChild(grid);
+
+  // --- partner skill ---
+  const ps = section("🤝 Partner Skill", "full"); const sk = el("div", "skill");
+  if (p.skill.name) sk.appendChild(el("b", "", p.skill.name));
+  sk.appendChild(el("span", p.skill.effect ? "" : "muted", p.skill.effect || "—"));
+  ps.appendChild(sk); grid.appendChild(ps);
+
+  // --- stats (new) ---
+  const st = section("📊 Stats", "full");
+  p.stats.forEach(s => {
+    const row = el("div", "stat");
+    const track = el("div", "track"), fill = el("div", "fill");
+    fill.dataset.w = Math.max(2, Math.min(100, s.value / s.max * 100)).toFixed(1);
+    track.appendChild(fill);
+    row.append(el("span", "muted", s.label), track, el("span", "", s.value));
+    st.appendChild(row);
+  });
+  grid.appendChild(st);
+
+  // --- elements ---
+  const els = section("⚔️ Elements");
+  p.elements.forEach(n => { const b = el("span", "badge", n); b.style.setProperty("--c", (COLORS[n] || DEFAULT_THEME)[0]); els.appendChild(b); });
+  if (!p.elements.length) els.appendChild(el("span", "muted", "—"));
+  grid.appendChild(els);
+
+  // --- work suitability ---
+  const ws = section("🛠️ Work Suitability");
+  p.work.forEach(w => {
+    const row = el("div", "work"); row.appendChild(el("span", "", w.emoji + " " + w.name));
+    const pips = el("div", "pips"); for (let i = 1; i <= 4; i++) pips.appendChild(el("span", "pip" + (i <= w.level ? " on" : "")));
+    row.appendChild(pips); ws.appendChild(row);
+  });
+  if (!p.work.length) ws.appendChild(el("span", "muted", "—"));
+  grid.appendChild(ws);
+
+  // --- notable drops ---
+  const dr = section("💎 Notable Drops", "full"); const dl = el("div", "drops");
+  p.drops.forEach(d => {
+    const tile = el("div", "drop");
+    if (d.icon) { const img = el("img"); img.src = d.icon; img.alt = ""; tile.appendChild(img); } else tile.appendChild(el("i", "", d.name[0]));
+    tile.appendChild(el("span", "", d.name)); dl.appendChild(tile);
+  });
+  if (!p.drops.length) dl.appendChild(el("span", "muted", "—"));
+  dr.appendChild(dl); grid.appendChild(dr);
+
+  // --- alpha / eggs / obtain ---
+  const al = section("👑 Alpha Location");
+  if (p.day_night) al.appendChild(el("div", "muted", "Day/Night: " + p.day_night));
+  al.appendChild(lines(p.alpha, "No Alpha location data available."));
+  grid.appendChild(al);
+  const eg = section("🥚 Egg Types"); eg.appendChild(lines(p.eggs, "No egg data available.")); grid.appendChild(eg);
+  const ob = section("📍 How to Obtain", "full"); ob.appendChild(lines(p.sources, "No other sources available.")); grid.appendChild(ob);
+
+  // --- habitat + map ---
+  grid.appendChild(buildHabitat(p));
+}
+
+// ================= habitat map =================
+// Is this spot inside the area drawn on the map picture? (uses the coarse grid in landmask.js)
+function onLand(u, v){
+  const M = window.LAND_MASK; if (!M) return true;
+  const cx = Math.floor(u * M.n), cy = Math.floor(v * M.n);
+  for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
+    const x = cx + dx, y = cy + dy;
+    if (x >= 0 && y >= 0 && x < M.n && y < M.n && M.rows[y][x] === "1") return true;
+  }
+  return false;
+}
+
+function buildHabitat(p){
+  const card = section("🗺️ Habitat", "full");
+  const treePts = p.tree_points || [];
+  const treeReady = treePts.length > 0 && treePts.every(t => t.u != null);
+  if (!p.habitat.length && !treePts.length) {
+    card.appendChild(el("div", "muted", "No habitat coordinates available."));
+    if ((p.unmapped || []).length) card.appendChild(el("div", "note", "No map position available yet for: " + p.unmapped.join(", ") + "."));
+    return card;
+  }
+  const treeSpotLines = () => treePts.map(t => "• " + t.label + " (X: " + t.x + ", Y: " + t.y + ")");
+  if (!p.habitat.length && !treeReady) {
+    // nothing to pin and no calibrated World Tree map: list the spots as text
+    card.appendChild(el("div", "muted", "World Tree spots (map coordinates). The World Tree map is not calibrated yet, so there is no map view for these."));
+    const box = el("div", "lines"); treeSpotLines().forEach(t => box.appendChild(el("div", "", t))); card.appendChild(box);
+    return card;
+  }
+  let layer = p.habitat.length ? "world" : "tree";      // which of the two maps is showing
+
+  // tabs: Palpagos Islands / World Tree (only when this Pal has World Tree spots)
+  const tabs = el("div", "chips tabs"); tabs.style.marginTop = "0"; tabs.style.marginBottom = "12px";
+  const tabBtns = {};
+  if (p.habitat.length && treeReady) {
+    [["world", "Palpagos Islands"], ["tree", "World Tree"]].forEach(([id, label]) => {
+      const b = el("button", "chip", label); b.addEventListener("click", () => setLayer(id)); tabs.appendChild(b); tabBtns[id] = b;
+    });
+    card.appendChild(tabs);
+  }
+
+  const spots = el("div", "spots"); card.appendChild(spots);
+  const view = el("div", "mapview"); view.dataset.map = "1";
+  const stage = el("div", "stage"); stage.dataset.layer = layer;
+  const worldImg = el("img", "layer-world"); worldImg.src = "world_map.webp"; worldImg.alt = "Palpagos Islands map"; worldImg.draggable = false;
+  worldImg.onerror = () => { view.replaceWith(el("div", "muted", "Map image not found (web/world_map.webp).")); };
+  stage.appendChild(worldImg);
+  if (treeReady) {
+    const treeImg = el("img", "layer-tree"); treeImg.src = "tree_map.webp"; treeImg.alt = "World Tree map"; treeImg.draggable = false;
+    stage.appendChild(treeImg);
+  }
+  view.appendChild(stage);
+  const ctl = el("div", "mapctl");
+  const mk = (t, title) => { const b = el("button", "", t); b.title = title; ctl.appendChild(b); return b; };
+  const bPlus = mk("+", "Zoom in"), bMinus = mk("−", "Zoom out"), bFit = mk("⤢", "Show this Pal's habitats");
+  view.appendChild(ctl);
+  card.appendChild(view);
+  card.appendChild(el("div", "note", "Pins mark a representative point for each habitat region. Drag to move, scroll to zoom."));
+  const notes = el("div", "note"); card.appendChild(notes);
+
+  // pins
+  const pins = [];
+  let anyOff = false;
+  const addPin = (spot, cls, off) => {
+    const pin = el("div", "pin " + cls + (off ? " off" : ""));
+    pin.style.left = (spot.u * 100) + "%"; pin.style.top = (spot.v * 100) + "%";
+    pin.appendChild(el("div", "dot")); pin.appendChild(el("div", "label", (spot.label || spot.location) + (off ? " (outside the drawn map)" : "")));
+    stage.appendChild(pin); return pin;
+  };
+  (p.debug_points || []).forEach(d => addPin(d, "debug world"));
+  p.habitat.forEach(h => {
+    const off = !onLand(h.u, h.v); anyOff = anyOff || off;
+    h.pin = addPin(h, "world", off); h.off = off; pins.push(h.pin);
+  });
+  if (treeReady) treePts.forEach(t => { t.pin = addPin(t, "tree"); pins.push(t.pin); });
+
+  const pointsNow = () => layer === "world" ? p.habitat : (treeReady ? treePts : []);
+
+  // the chips above the map and the notes below it change with the layer
+  function renderSpots(){
+    spots.replaceChildren();
+    pointsNow().forEach(h => {
+      const text = layer === "world" ? h.location + " (X: " + h.x + ", Y: " + h.y + ")" : h.label + " (X: " + h.x + ", Y: " + h.y + ")";
+      const b = el("button", "chip" + (h.off ? " off" : ""), text);
+      b.addEventListener("click", () => { pins.forEach(pn => pn.classList.toggle("active", pn === h.pin)); focusOn(h.u, h.v); });
+      spots.appendChild(b);
+    });
+  }
+  function renderNotes(){
+    notes.replaceChildren();
+    if (layer === "world") {
+      if (anyOff) notes.appendChild(el("div", "", "Dashed pins are outside the area drawn on this map."));
+      const un = [...new Set(p.unmapped || [])];
+      if (treePts.length && !treeReady) { notes.appendChild(el("div", "", "World Tree spots (this map is not calibrated yet):")); treeSpotLines().forEach(t => notes.appendChild(el("div", "", t))); }
+      if (un.length) notes.appendChild(el("div", "", "No map position available yet for: " + un.map(n => n.includes("World Tree") ? n + " (has its own map)" : n).join(", ") + "."));
+    } else if (!treeReady) {
+      notes.appendChild(el("div", "", "World Tree pins are switched off until this map is calibrated (see map_utils.py). Known spots, in map coordinates:"));
+      treePts.forEach(t => notes.appendChild(el("div", "", "• " + t.label + " (X: " + t.x + ", Y: " + t.y + ")")));
+    }
+  }
+
+  // pan + zoom
+  let k = 1, tx = 0, ty = 0, W = 0, H = 0, S = 0;
+  function measure(){ W = view.clientWidth; H = view.clientHeight; S = W; stage.style.width = S + "px"; stage.style.height = S + "px"; }
+  const minK = () => Math.min(1, H / S);
+  function apply(){
+    k = Math.min(10, Math.max(minK(), k));
+    // when the map is smaller than the view on one axis, keep it centred there
+    tx = S * k <= W ? (W - S * k) / 2 : Math.min(0, Math.max(W - S * k, tx));
+    ty = S * k <= H ? (H - S * k) / 2 : Math.min(0, Math.max(H - S * k, ty));
+    stage.style.transform = "translate(" + tx + "px," + ty + "px) scale(" + k + ")";
+    stage.style.setProperty("--k", k);
+  }
+  function zoomAt(cx, cy, f){ const nk = Math.min(10, Math.max(minK(), k * f)); const r = nk / k; tx = cx - (cx - tx) * r; ty = cy - (cy - ty) * r; k = nk; apply(); }
+  function focusOn(u, v){ k = Math.max(k, 3.5); tx = W / 2 - u * S * k; ty = H / 2 - v * S * k; apply(); }
+  function fit(){
+    const pts = pointsNow();
+    if (!pts.length) { k = minK(); apply(); return; }       // nothing to pin: show the whole map
+    const us = pts.map(h => h.u), vs = pts.map(h => h.v);
+    const minU = Math.min(...us), maxU = Math.max(...us), minV = Math.min(...vs), maxV = Math.max(...vs);
+    const bw = Math.max(0.04, maxU - minU), bh = Math.max(0.04, maxV - minV);
+    k = Math.min(4, Math.max(minK(), 0.8 * Math.min(W / (bw * S), H / (bh * S))));
+    const cu = (minU + maxU) / 2, cv = (minV + maxV) / 2;
+    tx = W / 2 - cu * S * k; ty = H / 2 - cv * S * k; apply();
+  }
+  function setLayer(id){
+    layer = id; stage.dataset.layer = id;
+    Object.entries(tabBtns).forEach(([key, b]) => b.classList.toggle("on", key === id));
+    pins.forEach(pn => pn.classList.remove("active"));
+    renderSpots(); renderNotes(); fit();
+  }
+  let drag = null;
+  view.addEventListener("pointerdown", e => { if (e.target.closest(".mapctl")) return; drag = {x: e.clientX, y: e.clientY}; view.classList.add("drag"); view.setPointerCapture(e.pointerId); });
+  view.addEventListener("pointermove", e => { if (!drag) return; tx += e.clientX - drag.x; ty += e.clientY - drag.y; drag = {x: e.clientX, y: e.clientY}; apply(); });
+  const stop = () => { drag = null; view.classList.remove("drag"); };
+  view.addEventListener("pointerup", stop); view.addEventListener("pointercancel", stop);
+  view.addEventListener("wheel", e => { e.preventDefault(); const r = view.getBoundingClientRect(); zoomAt(e.clientX - r.left, e.clientY - r.top, e.deltaY < 0 ? 1.25 : 0.8); }, {passive: false});
+  bPlus.addEventListener("click", () => zoomAt(W / 2, H / 2, 1.5));
+  bMinus.addEventListener("click", () => zoomAt(W / 2, H / 2, 1 / 1.5));
+  bFit.addEventListener("click", fit);
+  window.addEventListener("resize", () => {
+    if (!view.isConnected || !S) return;
+    // remember which spot is in the middle, resize, then put it back there
+    const cu = (W / 2 - tx) / (S * k), cv = (H / 2 - ty) / (S * k);
+    measure(); tx = W / 2 - cu * S * k; ty = H / 2 - cv * S * k; apply();
+  });
+
+  renderSpots(); renderNotes();
+  if (tabBtns[layer]) tabBtns[layer].classList.add("on");
+  // measured once the card is on screen
+  view._startMap = () => { measure(); fit(); };
+  return card;
+}
+
+// ================= buttons + start-up =================
+$("go").addEventListener("click", search);
+$("paldb").addEventListener("click", () => { if (bridge) bridge.openPalDB(); });
+$("clear").addEventListener("click", () => {
+  q.value = ""; setTheme(DEFAULT_THEME); $("paldb").disabled = true;
+  recents = []; savePrefs(); refreshChips();          // only the Clear button wipes recent searches
+  if (bridge) bridge.clearPal();
+  showEmpty("No Pal selected", "Search for a Pal to view its details."); q.focus();
+});
+
+async function boot(){
+  names = JSON.parse(await ask("getPalNames"));
+  try { const prefs = JSON.parse(await ask("loadPrefs") || "{}"); recents = prefs.recents || []; favs = prefs.favs || []; } catch (e) {}
+  refreshChips();
+  showEmpty("No Pal selected", "Search for a Pal to view its details.");
+}
+
+if (typeof QWebChannel !== "undefined" && window.qt && qt.webChannelTransport) {
+  new QWebChannel(qt.webChannelTransport, channel => { bridge = channel.objects.paldex; boot(); });
+} else {
+  // Opened in a normal browser (or the Qt script could not load).
+  showEmpty("Preview mode", "This page gets its data from the Paldex app. Run main.py to use it.");
+}
+</script>
+</body>
+</html>

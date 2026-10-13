@@ -1,0 +1,25 @@
+# Downloaded Pal images (re-created on first run)
+image_cache/
+
+# Remembered recent searches and favourites (per user)
+paldex_prefs.json
+
+# Original large map pictures (the app uses the web-sized copies in web/)
+maps/
+
+# Build output
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor and tool settings
+.claude/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
