@@ -2,7 +2,7 @@
 
 A dark, glass-style desktop companion for **Palworld**. Search any Pal and see its stats, partner skill, elements, work suitability, notable drops, alpha locations, eggs and habitat, with a pannable map showing where it lives.
 
-![Paldex screenshot](docs/screenshot.png)
+![Paldex screenshot](docs/Screenshot.png)
 
 ## Features
 
